@@ -1,242 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <TimePicker /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TimePicker
+<div
+  className="md-timepicker-container"
+>
+  <Input
+    ariaDescribedBy={null}
+    ariaLabel={null}
     className=""
-    id="test"
-    inputId=""
-    militaryTime={false}
-    minuteInterval={1}
-    onChange={null}
-    selectedTime={2018-01-29T09:12:40.000Z}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <Input
-          ariaDescribedBy={null}
-          ariaLabel={null}
-          className=""
-          clear={false}
-          clearAriaLabel={null}
-          containerSize=""
-          defaultValue=""
-          disabled={false}
-          helpText=""
-          htmlId={null}
-          id="md-timepicker__input-1"
-          inputAfter={null}
-          inputBefore={null}
-          inputClassName=""
-          inputRef={[Function]}
-          inputSize=""
-          isFilled={false}
-          label=""
-          messageArr={Array []}
-          multiline={false}
-          name="md-timepicker__input-1"
-          nestedLevel={0}
-          onChange={[Function]}
-          onDoneEditing={null}
-          onFocus={[Function]}
-          onKeyDown={null}
-          onMouseDown={[Function]}
-          placeholder=""
-          readOnly={true}
-          secondaryLabel=""
-          shape=""
-          type="text"
-          value="2:42 PM"
-        />,
-        false,
-      ],
-      "className": "md-timepicker-container",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "ariaDescribedBy": null,
-          "ariaLabel": null,
-          "className": "",
-          "clear": false,
-          "clearAriaLabel": null,
-          "containerSize": "",
-          "defaultValue": "",
-          "disabled": false,
-          "helpText": "",
-          "htmlId": null,
-          "id": "md-timepicker__input-1",
-          "inputAfter": null,
-          "inputBefore": null,
-          "inputClassName": "",
-          "inputRef": [Function],
-          "inputSize": "",
-          "isFilled": false,
-          "label": "",
-          "messageArr": Array [],
-          "multiline": false,
-          "name": "md-timepicker__input-1",
-          "nestedLevel": 0,
-          "onChange": [Function],
-          "onDoneEditing": null,
-          "onFocus": [Function],
-          "onKeyDown": null,
-          "onMouseDown": [Function],
-          "placeholder": "",
-          "readOnly": true,
-          "secondaryLabel": "",
-          "shape": "",
-          "type": "text",
-          "value": "2:42 PM",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      false,
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Input
-            ariaDescribedBy={null}
-            ariaLabel={null}
-            className=""
-            clear={false}
-            clearAriaLabel={null}
-            containerSize=""
-            defaultValue=""
-            disabled={false}
-            helpText=""
-            htmlId={null}
-            id="md-timepicker__input-1"
-            inputAfter={null}
-            inputBefore={null}
-            inputClassName=""
-            inputRef={[Function]}
-            inputSize=""
-            isFilled={false}
-            label=""
-            messageArr={Array []}
-            multiline={false}
-            name="md-timepicker__input-1"
-            nestedLevel={0}
-            onChange={[Function]}
-            onDoneEditing={null}
-            onFocus={[Function]}
-            onKeyDown={null}
-            onMouseDown={[Function]}
-            placeholder=""
-            readOnly={true}
-            secondaryLabel=""
-            shape=""
-            type="text"
-            value="2:42 PM"
-          />,
-          false,
-        ],
-        "className": "md-timepicker-container",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "ariaDescribedBy": null,
-            "ariaLabel": null,
-            "className": "",
-            "clear": false,
-            "clearAriaLabel": null,
-            "containerSize": "",
-            "defaultValue": "",
-            "disabled": false,
-            "helpText": "",
-            "htmlId": null,
-            "id": "md-timepicker__input-1",
-            "inputAfter": null,
-            "inputBefore": null,
-            "inputClassName": "",
-            "inputRef": [Function],
-            "inputSize": "",
-            "isFilled": false,
-            "label": "",
-            "messageArr": Array [],
-            "multiline": false,
-            "name": "md-timepicker__input-1",
-            "nestedLevel": 0,
-            "onChange": [Function],
-            "onDoneEditing": null,
-            "onFocus": [Function],
-            "onKeyDown": null,
-            "onMouseDown": [Function],
-            "placeholder": "",
-            "readOnly": true,
-            "secondaryLabel": "",
-            "shape": "",
-            "type": "text",
-            "value": "2:42 PM",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        false,
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    clear={false}
+    clearAriaLabel={null}
+    containerSize=""
+    defaultValue=""
+    disabled={false}
+    helpText=""
+    htmlId={null}
+    id="md-timepicker__input-1"
+    inputAfter={null}
+    inputBefore={null}
+    inputClassName=""
+    inputRef={[Function]}
+    inputSize=""
+    isFilled={false}
+    label=""
+    messageArr={Array []}
+    multiline={false}
+    name="md-timepicker__input-1"
+    nestedLevel={0}
+    onChange={[Function]}
+    onDoneEditing={null}
+    onFocus={[Function]}
+    onKeyDown={null}
+    onMouseDown={[Function]}
+    placeholder=""
+    readOnly={true}
+    secondaryLabel=""
+    shape=""
+    type="text"
+    value="2:42 PM"
+  />
+</div>
 `;

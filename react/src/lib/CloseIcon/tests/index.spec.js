@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { CloseIcon } from '@momentum-ui/react';
 
 describe('tests for <CloseIcon />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<CloseIcon className='test' />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should call onClick on click of close', () => {

@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Alert } from '@momentum-ui/react';
 
 describe('tests for <Alert />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Alert show />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Alert', () => {

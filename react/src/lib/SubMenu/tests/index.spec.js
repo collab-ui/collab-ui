@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { MenuItem, SubMenu } from '@momentum-ui/react';
 
 describe('tests for <SubMenu />', () => {
@@ -10,7 +11,7 @@ describe('tests for <SubMenu />', () => {
         <MenuItem label="two"/>
       </SubMenu>
     );
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('when handle customNodeProp', () => {

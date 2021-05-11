@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Button, ButtonGroup, Icon } from '@momentum-ui/react';
 
 describe('tests for <ButtonGroup />', () => {
@@ -9,7 +10,7 @@ describe('tests for <ButtonGroup />', () => {
         <Button ariaLabel="test">1</Button>
       </ButtonGroup>);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('ButtonGroup should have justified as true', () => {
@@ -81,7 +82,9 @@ describe('tests for <ButtonGroup />', () => {
       <ButtonGroup focusOnLoad>
         <Button ariaLabel="test" id="one">1</Button>
         <Button ariaLabel="test" id="two">2</Button>
-      </ButtonGroup>);
+      </ButtonGroup>
+    , { attachTo: document.body });
+
     expect(document.activeElement.id).toEqual('one');
   });
 

@@ -1,371 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tests for <Icon /> Test the accessibilty of <Icon /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Icon
-    append={false}
-    ariaLabel={null}
-    buttonClassName=""
-    buttonProps={null}
-    className=""
-    color=""
-    description="This is a test description"
-    name="accessibility_16"
-    onClick={null}
-    prepend={false}
-    size={null}
-    sizeOverride={false}
-    style={null}
-    title="Test Title"
-    type=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "aria-label": "Test Title This is a test description",
-      "className": "md-icon icon icon-accessibility_16",
-      "style": Object {
-        "fontSize": 16,
-      },
-      "title": "Test Title",
-    },
-    "ref": null,
-    "rendered": null,
-    "type": "i",
-  },
-  Symbol(enzyme.__nodes__): Array [
+<i
+  aria-label="Test Title This is a test description"
+  className="md-icon icon icon-accessibility_16"
+  style={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "aria-label": "Test Title This is a test description",
-        "className": "md-icon icon icon-accessibility_16",
-        "style": Object {
-          "fontSize": 16,
-        },
-        "title": "Test Title",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": "i",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+      "fontSize": 16,
+    }
+  }
+  title="Test Title"
+/>
 `;
 
 exports[`Tests for <Icon /> Test the colors of <Icon /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Icon
-    append={false}
-    ariaLabel={null}
-    buttonClassName=""
-    buttonProps={null}
-    className=""
-    color=""
-    description=""
-    name="accessibility_16"
-    onClick={null}
-    prepend={false}
-    size={null}
-    sizeOverride={false}
-    style={null}
-    title=""
-    type=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "aria-label": null,
-      "className": "md-icon icon icon-accessibility_16",
-      "style": Object {
-        "fontSize": 16,
-      },
-    },
-    "ref": null,
-    "rendered": null,
-    "type": "i",
-  },
-  Symbol(enzyme.__nodes__): Array [
+<i
+  aria-label={null}
+  className="md-icon icon icon-accessibility_16"
+  style={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "aria-label": null,
-        "className": "md-icon icon icon-accessibility_16",
-        "style": Object {
-          "fontSize": 16,
-        },
-      },
-      "ref": null,
-      "rendered": null,
-      "type": "i",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+      "fontSize": 16,
+    }
+  }
+/>
 `;
 
 exports[`Tests for <Icon /> Test the sizes of <Icon /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Icon
-    append={false}
-    ariaLabel={null}
-    buttonClassName=""
-    buttonProps={null}
-    className="testClass"
-    color="red-50"
-    description=""
-    name="accessibility_16"
-    onClick={null}
-    prepend={false}
-    size={24}
-    sizeOverride={false}
-    style={null}
-    title=""
-    type=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "aria-label": null,
-      "className": "md-icon icon icon-accessibility_16 testClass",
-      "style": Object {
-        "color": "rgba(247, 100, 74, 1)",
-        "fontSize": 24,
-      },
-    },
-    "ref": null,
-    "rendered": null,
-    "type": "i",
-  },
-  Symbol(enzyme.__nodes__): Array [
+<i
+  aria-label={null}
+  className="md-icon icon icon-accessibility_16 testClass"
+  style={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "aria-label": null,
-        "className": "md-icon icon icon-accessibility_16 testClass",
-        "style": Object {
-          "color": "rgba(247, 100, 74, 1)",
-          "fontSize": 24,
-        },
-      },
-      "ref": null,
-      "rendered": null,
-      "type": "i",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+      "color": "rgba(247, 100, 74, 1)",
+      "fontSize": 24,
+    }
+  }
+/>
 `;
 
 exports[`Tests for <Icon /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Icon
-    append={false}
-    ariaLabel={null}
-    buttonClassName=""
-    buttonProps={null}
-    className="testClass"
-    color="blue-50"
-    description=""
-    name="accessibility_16"
-    onClick={null}
-    prepend={false}
-    size={null}
-    sizeOverride={false}
-    style={null}
-    title=""
-    type=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "aria-label": null,
-      "className": "md-icon icon icon-accessibility_16 testClass",
-      "style": Object {
-        "color": "rgba(0, 160, 209, 1)",
-        "fontSize": 16,
-      },
-    },
-    "ref": null,
-    "rendered": null,
-    "type": "i",
-  },
-  Symbol(enzyme.__nodes__): Array [
+<i
+  aria-label={null}
+  className="md-icon icon icon-accessibility_16 testClass"
+  style={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "aria-label": null,
-        "className": "md-icon icon icon-accessibility_16 testClass",
-        "style": Object {
-          "color": "rgba(0, 160, 209, 1)",
-          "fontSize": 16,
-        },
-      },
-      "ref": null,
-      "rendered": null,
-      "type": "i",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+      "color": "rgba(0, 160, 209, 1)",
+      "fontSize": 16,
+    }
+  }
+/>
 `;

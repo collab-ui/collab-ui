@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Sidebar,
   SidebarNav,
@@ -10,7 +11,7 @@ describe('<Sidebar />', () => {
   it('should render a Sidebar', () => {
     const wrapper = shallow(<Sidebar />);
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should add customized class name if className prop is set', () => {

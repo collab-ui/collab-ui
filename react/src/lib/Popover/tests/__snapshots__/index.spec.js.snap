@@ -1,146 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <Popover /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Popover
-    autoFocusOnFirstElt={false}
-    className=""
-    closeOnFocusLeavesContent={false}
-    content={
-      <span>
-        Hello how are you doing
-      </span>
-    }
-    delay={0}
-    doesAnchorToggle={true}
-    hideDelay={0}
-    hoverDelay={500}
-    includeFocusOnHover={true}
-    onClose={null}
-    overflowType="auto"
-    popoverTrigger="MouseEnter"
-    showArrow={true}
-    showDelay={0}
-    startOpen={false}
+<Fragment>
+  <button
+    key="child-1"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
   >
-    <button>
-      Hello
-    </button>
-  </Popover>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <button
-          onBlur={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          Hello
-        </button>,
-        false,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "child-1",
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hello",
-          "onBlur": [Function],
-          "onFocus": [Function],
-          "onMouseEnter": [Function],
-          "onMouseLeave": [Function],
-        },
-        "ref": [Function],
-        "rendered": "Hello",
-        "type": "button",
-      },
-      false,
-    ],
-    "type": Symbol(react.fragment),
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <button
-            onBlur={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-          >
-            Hello
-          </button>,
-          false,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "child-1",
-          "nodeType": "host",
-          "props": Object {
-            "children": "Hello",
-            "onBlur": [Function],
-            "onFocus": [Function],
-            "onMouseEnter": [Function],
-            "onMouseLeave": [Function],
-          },
-          "ref": [Function],
-          "rendered": "Hello",
-          "type": "button",
-        },
-        false,
-      ],
-      "type": Symbol(react.fragment),
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    Hello
+  </button>
+</Fragment>
 `;

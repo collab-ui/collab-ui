@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { TabPane } from '@momentum-ui/react';
 
 describe('tests for <TabPane />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<TabPane />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one TabPane', () => {

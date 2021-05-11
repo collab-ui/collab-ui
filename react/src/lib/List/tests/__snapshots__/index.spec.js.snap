@@ -1,283 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <List /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <List
-    active={null}
-    ariaConfig={null}
-    className=""
-    focus={null}
-    focusFirst={true}
-    focusFirstQuery=""
-    focusQuery=""
-    id="test"
-    itemRole="listitem"
-    navigationDirection="both"
-    onSelect={null}
-    role="list"
-    shouldFocusActive={false}
-    shouldFocusInitial={true}
-    shouldLoop={true}
-    shouldPropagateKeyDown={false}
-    tabType="vertical"
-    trackActive={true}
-    type={null}
-    wrap={false}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": <Context.Provider
-        value={
-          Object {
-            "active": null,
-            "ariaConfig": null,
-            "focus": null,
-            "role": "listitem",
-            "type": null,
-          }
-        }
-      >
-        <div
-          aria-activedescendant={null}
-          className="md-list md-list--vertical"
-          focus={null}
-          id="test"
-          onSelect={null}
-          role="list"
-        />
-      </Context.Provider>,
-      "value": Object {
-        "parentKeyDown": [Function],
-        "parentOnSelect": [Function],
-      },
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": <div
-          aria-activedescendant={null}
-          className="md-list md-list--vertical"
-          focus={null}
-          id="test"
-          onSelect={null}
-          role="list"
-        />,
-        "value": Object {
-          "active": null,
-          "ariaConfig": null,
-          "focus": null,
-          "role": "listitem",
-          "type": null,
-        },
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "aria-activedescendant": null,
-          "children": null,
-          "className": "md-list md-list--vertical",
-          "focus": null,
-          "id": "test",
-          "onSelect": null,
-          "role": "list",
-        },
-        "ref": [Function],
-        "rendered": null,
-        "type": "div",
-      },
-      "type": Object {
-        "$$typeof": Symbol(react.provider),
-        "_context": Object {
-          "$$typeof": Symbol(react.context),
-          "Consumer": Object {
-            "$$typeof": Symbol(react.context),
-            "_calculateChangedBits": null,
-            "_context": [Circular],
-          },
-          "Provider": [Circular],
-          "_calculateChangedBits": null,
-          "_currentRenderer": null,
-          "_currentRenderer2": null,
-          "_currentValue": null,
-          "_currentValue2": null,
-          "_threadCount": 0,
-        },
-      },
-    },
-    "type": Object {
-      "$$typeof": Symbol(react.provider),
-      "_context": Object {
-        "$$typeof": Symbol(react.context),
-        "Consumer": Object {
-          "$$typeof": Symbol(react.context),
-          "_calculateChangedBits": null,
-          "_context": [Circular],
-        },
-        "Provider": [Circular],
-        "_calculateChangedBits": null,
-        "_currentRenderer": null,
-        "_currentRenderer2": null,
-        "_currentValue": undefined,
-        "_currentValue2": undefined,
-        "_threadCount": 0,
-      },
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
+<ContextProvider
+  value={
     Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": <Context.Provider
-          value={
-            Object {
-              "active": null,
-              "ariaConfig": null,
-              "focus": null,
-              "role": "listitem",
-              "type": null,
-            }
-          }
-        >
-          <div
-            aria-activedescendant={null}
-            className="md-list md-list--vertical"
-            focus={null}
-            id="test"
-            onSelect={null}
-            role="list"
-          />
-        </Context.Provider>,
-        "value": Object {
-          "parentKeyDown": [Function],
-          "parentOnSelect": [Function],
-        },
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": <div
-            aria-activedescendant={null}
-            className="md-list md-list--vertical"
-            focus={null}
-            id="test"
-            onSelect={null}
-            role="list"
-          />,
-          "value": Object {
-            "active": null,
-            "ariaConfig": null,
-            "focus": null,
-            "role": "listitem",
-            "type": null,
-          },
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "aria-activedescendant": null,
-            "children": null,
-            "className": "md-list md-list--vertical",
-            "focus": null,
-            "id": "test",
-            "onSelect": null,
-            "role": "list",
-          },
-          "ref": [Function],
-          "rendered": null,
-          "type": "div",
-        },
-        "type": Object {
-          "$$typeof": Symbol(react.provider),
-          "_context": Object {
-            "$$typeof": Symbol(react.context),
-            "Consumer": Object {
-              "$$typeof": Symbol(react.context),
-              "_calculateChangedBits": null,
-              "_context": [Circular],
-            },
-            "Provider": [Circular],
-            "_calculateChangedBits": null,
-            "_currentRenderer": null,
-            "_currentRenderer2": null,
-            "_currentValue": null,
-            "_currentValue2": null,
-            "_threadCount": 0,
-          },
-        },
-      },
-      "type": Object {
-        "$$typeof": Symbol(react.provider),
-        "_context": Object {
-          "$$typeof": Symbol(react.context),
-          "Consumer": Object {
-            "$$typeof": Symbol(react.context),
-            "_calculateChangedBits": null,
-            "_context": [Circular],
-          },
-          "Provider": [Circular],
-          "_calculateChangedBits": null,
-          "_currentRenderer": null,
-          "_currentRenderer2": null,
-          "_currentValue": undefined,
-          "_currentValue2": undefined,
-          "_threadCount": 0,
-        },
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+      "parentKeyDown": [Function],
+      "parentOnSelect": [Function],
+    }
+  }
+>
+  <ContextProvider
+    value={
+      Object {
+        "active": null,
+        "ariaConfig": null,
+        "focus": null,
+        "role": "listitem",
+        "type": null,
+      }
+    }
+  >
+    <div
+      aria-activedescendant={null}
+      className="md-list md-list--vertical"
+      focus={null}
+      id="test"
+      onSelect={null}
+      role="list"
+    />
+  </ContextProvider>
+</ContextProvider>
 `;

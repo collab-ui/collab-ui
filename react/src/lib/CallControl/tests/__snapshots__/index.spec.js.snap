@@ -1,184 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <CallControl /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CallControl
-    active={false}
-    ariaLabel="test"
+<ContextTransform(Button)
+  ariaLabel="test"
+  circle={true}
+  className="md-call-control"
+  color="dark-gray"
+  disabled={false}
+  onClick={null}
+  size={56}
+>
+  <Icon
+    append={false}
+    ariaLabel={null}
+    buttonClassName=""
+    buttonProps={null}
     className=""
-    disabled={false}
-    iconColor="white-100"
-    iconSize={24}
+    color="white-100"
+    description=""
+    name="microphone-muted_24"
     onClick={null}
-    size={56}
-    type="microphone-muted"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "ariaLabel": "test",
-      "children": <Icon
-        append={false}
-        ariaLabel={null}
-        buttonClassName=""
-        buttonProps={null}
-        className=""
-        color="white-100"
-        description=""
-        name="microphone-muted_24"
-        onClick={null}
-        prepend={false}
-        size={null}
-        sizeOverride={false}
-        style={null}
-        title=""
-        type=""
-      />,
-      "circle": true,
-      "className": "md-call-control",
-      "color": "dark-gray",
-      "disabled": false,
-      "onClick": null,
-      "size": 56,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "append": false,
-        "ariaLabel": null,
-        "buttonClassName": "",
-        "buttonProps": null,
-        "className": "",
-        "color": "white-100",
-        "description": "",
-        "name": "microphone-muted_24",
-        "onClick": null,
-        "prepend": false,
-        "size": null,
-        "sizeOverride": false,
-        "style": null,
-        "title": "",
-        "type": "",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "defaultProps": undefined,
-      "displayName": "ContextTransform(Button)",
-      "propTypes": undefined,
-      "render": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "ariaLabel": "test",
-        "children": <Icon
-          append={false}
-          ariaLabel={null}
-          buttonClassName=""
-          buttonProps={null}
-          className=""
-          color="white-100"
-          description=""
-          name="microphone-muted_24"
-          onClick={null}
-          prepend={false}
-          size={null}
-          sizeOverride={false}
-          style={null}
-          title=""
-          type=""
-        />,
-        "circle": true,
-        "className": "md-call-control",
-        "color": "dark-gray",
-        "disabled": false,
-        "onClick": null,
-        "size": 56,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "append": false,
-          "ariaLabel": null,
-          "buttonClassName": "",
-          "buttonProps": null,
-          "className": "",
-          "color": "white-100",
-          "description": "",
-          "name": "microphone-muted_24",
-          "onClick": null,
-          "prepend": false,
-          "size": null,
-          "sizeOverride": false,
-          "style": null,
-          "title": "",
-          "type": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "defaultProps": undefined,
-        "displayName": "ContextTransform(Button)",
-        "propTypes": undefined,
-        "render": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    prepend={false}
+    size={null}
+    sizeOverride={false}
+    style={null}
+    title=""
+    type=""
+  />
+</ContextTransform(Button)>
 `;

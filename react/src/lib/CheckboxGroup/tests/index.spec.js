@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Checkbox, CheckboxGroup } from '@momentum-ui/react';
 
 describe('tests for <CheckboxGroup />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<CheckboxGroup />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one CheckboxGroup', () => {

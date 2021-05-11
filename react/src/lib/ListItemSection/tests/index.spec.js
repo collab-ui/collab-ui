@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ListItemSection } from '@momentum-ui/react';
 
 describe('tests for <ListItemSection />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ListItemSection />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one ListItemSection', () => {

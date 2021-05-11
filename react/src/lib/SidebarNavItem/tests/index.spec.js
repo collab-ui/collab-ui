@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import SidebarNavItem from '@momentum-ui/react/SidebarNavItem';
 import SidebarContext from '../../SidebarContext';
 import SidebarNavContext from '../../SidebarNavContext';
@@ -9,7 +10,7 @@ describe('tests for <SidebarNavItem />', () => {
     const wrapper = shallow(
       <SidebarNavItem label="one"/>
     );
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should add customized class name if className prop is set', () => {

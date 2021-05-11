@@ -1,186 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <AccordionGroup /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <AccordionGroup
+<div
+  aria-expanded={false}
+  className="md-accordion__group"
+>
+  <AccordionHeader
     className=""
     disabled={false}
     focus={false}
-    isExpanded={false}
-    onClick={null}
-    onKeyDown={null}
+    height=""
+    key=".0"
     showSeparator={false}
-  >
-    <AccordionHeader
-      className=""
-      disabled={false}
-      focus={false}
-      height=""
-      showSeparator={true}
-    />
-    <AccordionContent
-      className=""
-    />
-  </AccordionGroup>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "aria-expanded": false,
-      "children": Array [
-        <AccordionHeader
-          className=""
-          disabled={false}
-          focus={false}
-          height=""
-          showSeparator={false}
-        />,
-        <AccordionContent
-          className=""
-          disabled={false}
-          focus={false}
-          showSeparator={false}
-        />,
-      ],
-      "className": "md-accordion__group",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": ".0",
-        "nodeType": "class",
-        "props": Object {
-          "children": null,
-          "className": "",
-          "disabled": false,
-          "focus": false,
-          "height": "",
-          "showSeparator": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": ".1",
-        "nodeType": "function",
-        "props": Object {
-          "children": null,
-          "className": "",
-          "disabled": false,
-          "focus": false,
-          "showSeparator": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "aria-expanded": false,
-        "children": Array [
-          <AccordionHeader
-            className=""
-            disabled={false}
-            focus={false}
-            height=""
-            showSeparator={false}
-          />,
-          <AccordionContent
-            className=""
-            disabled={false}
-            focus={false}
-            showSeparator={false}
-          />,
-        ],
-        "className": "md-accordion__group",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": ".0",
-          "nodeType": "class",
-          "props": Object {
-            "children": null,
-            "className": "",
-            "disabled": false,
-            "focus": false,
-            "height": "",
-            "showSeparator": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": ".1",
-          "nodeType": "function",
-          "props": Object {
-            "children": null,
-            "className": "",
-            "disabled": false,
-            "focus": false,
-            "showSeparator": false,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): Object {
-    "onClick": null,
-    "onKeyDown": null,
-  },
-}
+  />
+  <AccordionContent
+    className=""
+    disabled={false}
+    focus={false}
+    key=".1"
+    showSeparator={false}
+  />
+</div>
 `;

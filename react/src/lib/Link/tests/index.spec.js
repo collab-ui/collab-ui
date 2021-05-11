@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Link } from '@momentum-ui/react';
 
 describe('tests for <Link />', () => {
@@ -10,7 +11,7 @@ describe('tests for <Link />', () => {
       </Link>
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render className if prop is passed', () => {

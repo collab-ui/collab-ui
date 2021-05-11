@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Icon,
   Input,
@@ -14,7 +15,7 @@ describe('tests for <Input />', () => {
       <Input htmlId="1" name="test" label="test" type="text" />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should change tag based on multiline prop', () => {
@@ -30,7 +31,7 @@ describe('tests for <Input />', () => {
       <Input htmlId="1" name="test" label="test" type="number" />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should match password SnapShot', () => {
@@ -38,7 +39,7 @@ describe('tests for <Input />', () => {
       <Input htmlId="1" name="test" label="test" type="password" />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should match aria SnapShot', () => {
@@ -46,7 +47,7 @@ describe('tests for <Input />', () => {
       <Input htmlId="1" name="test" label="test" ariaDescribedBy="ariaDescribedBy" ariaLabel="ariaLabel" />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should match clear SnapShot', () => {
@@ -54,7 +55,7 @@ describe('tests for <Input />', () => {
       <Input htmlId="1" name="test" label="test" type="text" clear />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Input', () => {

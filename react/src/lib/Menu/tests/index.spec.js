@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Menu, MenuItem, SubMenu } from '@momentum-ui/react';
 
 describe('tests for <Menu />', () => {
@@ -14,7 +15,7 @@ describe('tests for <Menu />', () => {
       </Menu>
     );
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should apply className to Menu', () => {
@@ -48,7 +49,7 @@ describe('tests for <Menu />', () => {
         <MenuItem label="two" disabled eventKey="test-2"/>
         <MenuItem label="three" eventKey="test-3"/>
       </Menu>
-    );
+    , { attachTo: document.body });
     const instance = wrapper.find('Menu').instance();
 
     expect(instance.state.listContext.focus).toEqual('test-3');

@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import MenuContent from '@momentum-ui/react/MenuContent';
 
 
@@ -8,7 +9,7 @@ describe('tests for <MenuContent />', () => {
     const wrapper = shallow(
       <MenuContent>test</MenuContent>
     );
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should apply className to MenuContent', () => {

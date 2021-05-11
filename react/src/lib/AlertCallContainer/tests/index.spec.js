@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { AlertCall, AlertCallContainer } from '@momentum-ui/react';
 import uniqueId from 'lodash/uniqueId';
 
@@ -54,7 +55,7 @@ describe('tests for <AlertCallContainer />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<AlertCallContainer/>);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render a div', () => {

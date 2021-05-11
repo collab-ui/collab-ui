@@ -1,12 +1,13 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { CloseWrapper } from '@momentum-ui/react';
 
 describe('tests for <CloseWrapper />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<CloseWrapper />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should call onClick callback when the button is clicked', () => {

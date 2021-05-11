@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import MenuItem from '@momentum-ui/react/MenuItem';
 import SelectableContext from '../../SelectableContext';
 
@@ -18,7 +19,7 @@ describe('tests for <MenuItem />', () => {
     const wrapper = shallow(
       <MenuItem label="one"/>
     );
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should call handleClick function of context when ListItem is clicked', () => {

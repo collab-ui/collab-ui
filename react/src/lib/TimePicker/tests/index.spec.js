@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment-timezone';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { TimePicker } from '@momentum-ui/react';
 
 describe('tests for <TimePicker />', () => {
@@ -18,7 +19,7 @@ describe('tests for <TimePicker />', () => {
       <TimePicker id="test" selectedTime={new Date('Mon Jan 29 2018 14:42:40 GMT+0530 (IST)')} />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one TimePicker', () => {

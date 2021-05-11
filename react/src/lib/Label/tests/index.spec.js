@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Label } from '@momentum-ui/react';
 
 describe('tests for <Label />', () => {
   it('should match text SnapShot', () => {
     const container = shallow(<Label htmlFor="test" label="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should have HTML for attribute', () => {

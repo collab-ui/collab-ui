@@ -1,253 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <DeviceListCall /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <DeviceListCall
+<List
+  active={null}
+  ariaConfig={null}
+  className=""
+  focus={null}
+  focusFirst={true}
+  focusFirstQuery=""
+  focusQuery=""
+  id={null}
+  itemRole="listitem"
+  navigationDirection="both"
+  onSelect={[Function]}
+  role="list"
+  shouldFocusActive={false}
+  shouldFocusInitial={true}
+  shouldLoop={true}
+  shouldPropagateKeyDown={false}
+  tabType="vertical"
+  trackActive={true}
+  type={null}
+  wrap={false}
+>
+  <ListItemHeader
     className=""
-    defaultSelected={null}
-    devices={
-      Array [
-        Object {
-          "name": "SJC21-Babelfish",
-          "title": "testTitle",
-          "type": "device",
-          "value": "1010101",
-        },
-        Object {
-          "name": "Use my computer",
-          "value": "2020202",
-        },
-      ]
-    }
     header="Device selection"
-    onSelect={null}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "active": null,
-      "ariaConfig": null,
-      "children": Array [
-        <ListItemHeader
-          className=""
-          header="Device selection"
-          id=""
-          isReadOnly={true}
-          title=""
-          type=""
-        />,
-        Array [
-          <Unknown
-            name={[Function]}
-          >
-            [Function]
-          </Unknown>,
-          <Unknown
-            name={[Function]}
-          >
-            [Function]
-          </Unknown>,
-        ],
-      ],
-      "className": "",
-      "focus": null,
-      "focusFirst": true,
-      "focusFirstQuery": "",
-      "focusQuery": "",
-      "id": null,
-      "itemRole": "listitem",
-      "navigationDirection": "both",
-      "onSelect": [Function],
-      "role": "list",
-      "shouldFocusActive": false,
-      "shouldFocusInitial": true,
-      "shouldLoop": true,
-      "shouldPropagateKeyDown": false,
-      "tabType": "vertical",
-      "trackActive": true,
-      "type": null,
-      "wrap": false,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": null,
-          "className": "",
-          "header": "Device selection",
-          "id": "",
-          "isReadOnly": true,
-          "title": "",
-          "type": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "device-0",
-        "nodeType": "function",
-        "props": Object {
-          "children": [Function],
-          "name": [Function],
-        },
-        "ref": null,
-        "rendered": [Function],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "device-1",
-        "nodeType": "function",
-        "props": Object {
-          "children": [Function],
-          "name": [Function],
-        },
-        "ref": null,
-        "rendered": [Function],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "active": null,
-        "ariaConfig": null,
-        "children": Array [
-          <ListItemHeader
-            className=""
-            header="Device selection"
-            id=""
-            isReadOnly={true}
-            title=""
-            type=""
-          />,
-          Array [
-            <Unknown
-              name={[Function]}
-            >
-              [Function]
-            </Unknown>,
-            <Unknown
-              name={[Function]}
-            >
-              [Function]
-            </Unknown>,
-          ],
-        ],
-        "className": "",
-        "focus": null,
-        "focusFirst": true,
-        "focusFirstQuery": "",
-        "focusQuery": "",
-        "id": null,
-        "itemRole": "listitem",
-        "navigationDirection": "both",
-        "onSelect": [Function],
-        "role": "list",
-        "shouldFocusActive": false,
-        "shouldFocusInitial": true,
-        "shouldLoop": true,
-        "shouldPropagateKeyDown": false,
-        "tabType": "vertical",
-        "trackActive": true,
-        "type": null,
-        "wrap": false,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": null,
-            "className": "",
-            "header": "Device selection",
-            "id": "",
-            "isReadOnly": true,
-            "title": "",
-            "type": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "device-0",
-          "nodeType": "function",
-          "props": Object {
-            "children": [Function],
-            "name": [Function],
-          },
-          "ref": null,
-          "rendered": [Function],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "device-1",
-          "nodeType": "function",
-          "props": Object {
-            "children": [Function],
-            "name": [Function],
-          },
-          "ref": null,
-          "rendered": [Function],
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    id=""
+    isReadOnly={true}
+    title=""
+    type=""
+  />
+  <Component
+    key="device-0"
+    name={[Function]}
+  >
+    <Component />
+  </Component>
+  <Component
+    key="device-1"
+    name={[Function]}
+  >
+    <Component />
+  </Component>
+</List>
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Slider } from '@momentum-ui/react';
 
 describe('tests for <Slider />', () => {
@@ -14,7 +15,7 @@ describe('tests for <Slider />', () => {
 		};
 		const container = shallow(<Slider {...props} />);
 
-		expect(container).toMatchSnapshot();
+		expect(toJson(container)).toMatchSnapshot();
 	});
 
 	it('should render Slider properly', () => {

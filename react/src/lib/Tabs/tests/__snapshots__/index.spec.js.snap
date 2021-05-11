@@ -1,123 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <Tabs /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Tabs
-    active={false}
-    className=""
-    focus={0}
-    justified={false}
-    onSelect={null}
-    tabType="pills"
-  >
-    <div />
-  </Tabs>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        " ",
-        Array [
-          <div />,
-        ],
-        " ",
-      ],
-      "className": "md-tab md-tab--pills",
-      "type": "pills",
-    },
-    "ref": null,
-    "rendered": Array [
-      " ",
-      Object {
-        "instance": null,
-        "key": ".0",
-        "nodeType": "host",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": "div",
-      },
-      " ",
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          " ",
-          Array [
-            <div />,
-          ],
-          " ",
-        ],
-        "className": "md-tab md-tab--pills",
-        "type": "pills",
-      },
-      "ref": null,
-      "rendered": Array [
-        " ",
-        Object {
-          "instance": null,
-          "key": ".0",
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "div",
-        },
-        " ",
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): Object {
-    "activeIndex": 0,
-    "focus": 0,
-    "onActivate": [Function],
-    "onFocus": [Function],
-    "tabType": "pills",
-  },
-}
+<div
+  className="md-tab md-tab--pills"
+  type="pills"
+>
+   
+  <div
+    key=".0"
+  />
+   
+</div>
 `;

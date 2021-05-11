@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { AlertCall, Avatar } from '@momentum-ui/react';
 
 describe('tests for <AlertCall />', () => {
@@ -34,7 +35,7 @@ describe('tests for <AlertCall />', () => {
       />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should match SnapShot with devices', () => {
@@ -47,7 +48,7 @@ describe('tests for <AlertCall />', () => {
       />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one AlertCall', () => {

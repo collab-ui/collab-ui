@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ErrorBoundary } from '@momentum-ui/react';
 
 describe('tests for <ErrorBoundary />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ErrorBoundary />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one ErrorBoundary', () => {

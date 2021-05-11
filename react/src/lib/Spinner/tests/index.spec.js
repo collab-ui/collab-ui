@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Spinner } from '@momentum-ui/react';
 
 describe('tests for <Spinner />', () => {
   it('should render a Spinner', () => {
     const wrapper = shallow(<Spinner />);
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should render with correct class names', () => {

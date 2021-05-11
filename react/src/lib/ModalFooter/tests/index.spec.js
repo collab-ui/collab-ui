@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ModalFooter } from '@momentum-ui/react';
 
 describe('tests for <ModalFooter />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ModalFooter id="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one ModalFooter', () => {

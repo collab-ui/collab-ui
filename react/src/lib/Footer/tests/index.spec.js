@@ -1,11 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Footer } from '@momentum-ui/react';
 
 describe('tests for <Footer />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Footer />);
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render top section only if children props is passed', () => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import DatePickerWeek from '../index';
 import moment from 'moment-timezone';
 
@@ -22,7 +23,7 @@ describe('tests for <DatePickerWeek />', () => {
     const container = shallow(
       <DatePickerWeek day={day} month={3} />
     );
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render a div', () => {

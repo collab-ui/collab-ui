@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Select, SelectOption } from '@momentum-ui/react';
 
 describe('tests for <SelectOption />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<SelectOption/>);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one SelectOption', () => {

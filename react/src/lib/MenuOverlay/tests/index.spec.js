@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Menu,
   MenuContent,
@@ -16,7 +17,7 @@ describe('tests for <MenuOverlay />', () => {
         </Menu>
       </MenuOverlay>
     );
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should apply className to MenuOverlay', () => {
@@ -36,7 +37,7 @@ describe('tests for <MenuOverlay />', () => {
           <MenuItem label="one"/>
         </Menu>
       </MenuOverlay>
-    );
+    , { attachTo: document.body });
 
     wrapper.find('.trigger').simulate('click');
     expect(document.activeElement.className).toEqual('md-test');

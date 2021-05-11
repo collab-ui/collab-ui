@@ -1,870 +1,100 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <AlertMeeting /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <AlertMeeting
-    attendees={
-      Array [
-        Object {
-          "props": Object {
-            "id": "testid",
-          },
-          "title": "J $",
-        },
-      ]
-    }
-    avatar={null}
-    className=""
-    closeAriaLabel="close"
-    closeBtnProps={null}
-    message=""
+<div
+  className="md-alert md-alert--meeting"
+>
+  <Avatar
+    alt=""
+    backgroundColor=""
+    buttonClassName=""
+    className={null}
+    color=""
+    failureBadge={false}
+    hasNotification={false}
+    hideDefaultTooltip={false}
+    icon={null}
+    id="testid"
+    initials={null}
+    isDecrypting={false}
+    isOverview={false}
     onClick={null}
-    onHide={null}
-    onKeyDown={null}
-    onSnooze={[Function]}
-    remindAriaLabel="snooze"
-    show={true}
-    snoozeBtnProps={null}
-    status=""
-    title=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <Avatar
-          alt=""
-          backgroundColor=""
-          buttonClassName=""
-          className={null}
-          color=""
-          failureBadge={false}
-          hasNotification={false}
-          hideDefaultTooltip={false}
-          icon={null}
-          id="testid"
-          initials={null}
-          isDecrypting={false}
-          isOverview={false}
-          onClick={null}
-          size="medium"
-          src={null}
-          theme={null}
-          title="J $"
-          type=""
-        />,
-        <div
-          className="md-alert__content"
-        >
-          <div
-            className="md-alert__title"
-            title=""
-          >
-            
-          </div>
-          <div
-            className="md-alert__status"
-          >
-            
-          </div>
-          <div
-            className="md-alert__message"
-            title=""
-          >
-            
-          </div>
-        </div>,
-        <div
-          className="md-alert__button"
-        >
-          <ForwardRef(render)
-            ariaLabel="snooze"
-            circle={true}
-            onClick={[Function]}
-            size={44}
-          >
-            <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="alarm_16"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-          </ForwardRef(render)>
-        </div>,
-        <div
-          className="md-alert__button"
-        >
-          <ForwardRef(render)
-            ariaLabel="close"
-            circle={true}
-            onClick={null}
-            size={44}
-          >
-            <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_16"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-          </ForwardRef(render)>
-        </div>,
-      ],
-      "className": "md-alert md-alert--meeting",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "alt": "",
-          "backgroundColor": "",
-          "buttonClassName": "",
-          "className": null,
-          "color": "",
-          "failureBadge": false,
-          "hasNotification": false,
-          "hideDefaultTooltip": false,
-          "icon": null,
-          "id": "testid",
-          "initials": null,
-          "isDecrypting": false,
-          "isOverview": false,
-          "onClick": null,
-          "size": "medium",
-          "src": null,
-          "theme": null,
-          "title": "J $",
-          "type": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <div
-              className="md-alert__title"
-              title=""
-            >
-              
-            </div>,
-            <div
-              className="md-alert__status"
-            >
-              
-            </div>,
-            <div
-              className="md-alert__message"
-              title=""
-            >
-              
-            </div>,
-          ],
-          "className": "md-alert__content",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "",
-              "className": "md-alert__title",
-              "title": "",
-            },
-            "ref": null,
-            "rendered": "",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "",
-              "className": "md-alert__status",
-            },
-            "ref": null,
-            "rendered": "",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "",
-              "className": "md-alert__message",
-              "title": "",
-            },
-            "ref": null,
-            "rendered": "",
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <ForwardRef(render)
-            ariaLabel="snooze"
-            circle={true}
-            onClick={[Function]}
-            size={44}
-          >
-            <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="alarm_16"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-          </ForwardRef(render)>,
-          "className": "md-alert__button",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "ariaLabel": "snooze",
-            "children": <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="alarm_16"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />,
-            "circle": true,
-            "onClick": [Function],
-            "size": 44,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "append": false,
-              "ariaLabel": null,
-              "buttonClassName": "",
-              "buttonProps": null,
-              "className": "",
-              "color": "",
-              "description": "",
-              "name": "alarm_16",
-              "onClick": null,
-              "prepend": false,
-              "size": null,
-              "sizeOverride": false,
-              "style": null,
-              "title": "",
-              "type": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(Button)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <ForwardRef(render)
-            ariaLabel="close"
-            circle={true}
-            onClick={null}
-            size={44}
-          >
-            <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_16"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-          </ForwardRef(render)>,
-          "className": "md-alert__button",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "ariaLabel": "close",
-            "children": <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_16"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />,
-            "circle": true,
-            "onClick": null,
-            "size": 44,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "append": false,
-              "ariaLabel": null,
-              "buttonClassName": "",
-              "buttonProps": null,
-              "className": "",
-              "color": "",
-              "description": "",
-              "name": "cancel_16",
-              "onClick": null,
-              "prepend": false,
-              "size": null,
-              "sizeOverride": false,
-              "style": null,
-              "title": "",
-              "type": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(Button)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Avatar
-            alt=""
-            backgroundColor=""
-            buttonClassName=""
-            className={null}
-            color=""
-            failureBadge={false}
-            hasNotification={false}
-            hideDefaultTooltip={false}
-            icon={null}
-            id="testid"
-            initials={null}
-            isDecrypting={false}
-            isOverview={false}
-            onClick={null}
-            size="medium"
-            src={null}
-            theme={null}
-            title="J $"
-            type=""
-          />,
-          <div
-            className="md-alert__content"
-          >
-            <div
-              className="md-alert__title"
-              title=""
-            >
-              
-            </div>
-            <div
-              className="md-alert__status"
-            >
-              
-            </div>
-            <div
-              className="md-alert__message"
-              title=""
-            >
-              
-            </div>
-          </div>,
-          <div
-            className="md-alert__button"
-          >
-            <ForwardRef(render)
-              ariaLabel="snooze"
-              circle={true}
-              onClick={[Function]}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="alarm_16"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>
-          </div>,
-          <div
-            className="md-alert__button"
-          >
-            <ForwardRef(render)
-              ariaLabel="close"
-              circle={true}
-              onClick={null}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_16"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>
-          </div>,
-        ],
-        "className": "md-alert md-alert--meeting",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "alt": "",
-            "backgroundColor": "",
-            "buttonClassName": "",
-            "className": null,
-            "color": "",
-            "failureBadge": false,
-            "hasNotification": false,
-            "hideDefaultTooltip": false,
-            "icon": null,
-            "id": "testid",
-            "initials": null,
-            "isDecrypting": false,
-            "isOverview": false,
-            "onClick": null,
-            "size": "medium",
-            "src": null,
-            "theme": null,
-            "title": "J $",
-            "type": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div
-                className="md-alert__title"
-                title=""
-              >
-                
-              </div>,
-              <div
-                className="md-alert__status"
-              >
-                
-              </div>,
-              <div
-                className="md-alert__message"
-                title=""
-              >
-                
-              </div>,
-            ],
-            "className": "md-alert__content",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "",
-                "className": "md-alert__title",
-                "title": "",
-              },
-              "ref": null,
-              "rendered": "",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "",
-                "className": "md-alert__status",
-              },
-              "ref": null,
-              "rendered": "",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "",
-                "className": "md-alert__message",
-                "title": "",
-              },
-              "ref": null,
-              "rendered": "",
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <ForwardRef(render)
-              ariaLabel="snooze"
-              circle={true}
-              onClick={[Function]}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="alarm_16"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>,
-            "className": "md-alert__button",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "ariaLabel": "snooze",
-              "children": <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="alarm_16"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />,
-              "circle": true,
-              "onClick": [Function],
-              "size": 44,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "append": false,
-                "ariaLabel": null,
-                "buttonClassName": "",
-                "buttonProps": null,
-                "className": "",
-                "color": "",
-                "description": "",
-                "name": "alarm_16",
-                "onClick": null,
-                "prepend": false,
-                "size": null,
-                "sizeOverride": false,
-                "style": null,
-                "title": "",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "defaultProps": undefined,
-              "displayName": "ContextTransform(Button)",
-              "propTypes": undefined,
-              "render": [Function],
-            },
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <ForwardRef(render)
-              ariaLabel="close"
-              circle={true}
-              onClick={null}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_16"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>,
-            "className": "md-alert__button",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "ariaLabel": "close",
-              "children": <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_16"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />,
-              "circle": true,
-              "onClick": null,
-              "size": 44,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "append": false,
-                "ariaLabel": null,
-                "buttonClassName": "",
-                "buttonProps": null,
-                "className": "",
-                "color": "",
-                "description": "",
-                "name": "cancel_16",
-                "onClick": null,
-                "prepend": false,
-                "size": null,
-                "sizeOverride": false,
-                "style": null,
-                "title": "",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "defaultProps": undefined,
-              "displayName": "ContextTransform(Button)",
-              "propTypes": undefined,
-              "render": [Function],
-            },
-          },
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-}
+    size="medium"
+    src={null}
+    theme={null}
+    title="J $"
+    type=""
+  />
+  <div
+    className="md-alert__content"
+  >
+    <div
+      className="md-alert__title"
+      title=""
+    />
+    <div
+      className="md-alert__status"
+    />
+    <div
+      className="md-alert__message"
+      title=""
+    />
+  </div>
+  <div
+    className="md-alert__button"
+  >
+    <ContextTransform(Button)
+      ariaLabel="snooze"
+      circle={true}
+      onClick={[Function]}
+      size={44}
+    >
+      <Icon
+        append={false}
+        ariaLabel={null}
+        buttonClassName=""
+        buttonProps={null}
+        className=""
+        color=""
+        description=""
+        name="alarm_16"
+        onClick={null}
+        prepend={false}
+        size={null}
+        sizeOverride={false}
+        style={null}
+        title=""
+        type=""
+      />
+    </ContextTransform(Button)>
+  </div>
+  <div
+    className="md-alert__button"
+  >
+    <ContextTransform(Button)
+      ariaLabel="close"
+      circle={true}
+      onClick={null}
+      size={44}
+    >
+      <Icon
+        append={false}
+        ariaLabel={null}
+        buttonClassName=""
+        buttonProps={null}
+        className=""
+        color=""
+        description=""
+        name="cancel_16"
+        onClick={null}
+        prepend={false}
+        size={null}
+        sizeOverride={false}
+        style={null}
+        title=""
+        type=""
+      />
+    </ContextTransform(Button)>
+  </div>
+</div>
 `;

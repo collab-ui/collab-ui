@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Topbar, TopbarMobile } from '@momentum-ui/react';
 import { prefix } from '../../utils/index';
 
@@ -7,7 +8,7 @@ describe('<Topbar />', () => {
   it('should render a Topbar', () => {
     const wrapper = shallow(<Topbar />);
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should apply fixed prop', () => {

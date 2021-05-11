@@ -1,182 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <ActivityButton /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ActivityButton
-    ariaLabel="test"
+<ContextTransform(Button)
+  ariaLabel="test"
+  circle={true}
+  className="md-activity md-activity__chat"
+  containerLarge={false}
+  disabled={false}
+  onClick={null}
+  size={68}
+>
+  <Icon
+    append={false}
+    ariaLabel={null}
+    buttonClassName=""
+    buttonProps={null}
     className=""
-    disabled={false}
+    color=""
+    description=""
+    name="chat_28"
     onClick={null}
-    size={68}
-    type="chat"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "ariaLabel": "test",
-      "children": <Icon
-        append={false}
-        ariaLabel={null}
-        buttonClassName=""
-        buttonProps={null}
-        className=""
-        color=""
-        description=""
-        name="chat_28"
-        onClick={null}
-        prepend={false}
-        size={null}
-        sizeOverride={false}
-        style={null}
-        title=""
-        type=""
-      />,
-      "circle": true,
-      "className": "md-activity md-activity__chat",
-      "color": undefined,
-      "containerLarge": false,
-      "disabled": false,
-      "onClick": null,
-      "size": 68,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "append": false,
-        "ariaLabel": null,
-        "buttonClassName": "",
-        "buttonProps": null,
-        "className": "",
-        "color": "",
-        "description": "",
-        "name": "chat_28",
-        "onClick": null,
-        "prepend": false,
-        "size": null,
-        "sizeOverride": false,
-        "style": null,
-        "title": "",
-        "type": "",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "defaultProps": undefined,
-      "displayName": "ContextTransform(Button)",
-      "propTypes": undefined,
-      "render": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "ariaLabel": "test",
-        "children": <Icon
-          append={false}
-          ariaLabel={null}
-          buttonClassName=""
-          buttonProps={null}
-          className=""
-          color=""
-          description=""
-          name="chat_28"
-          onClick={null}
-          prepend={false}
-          size={null}
-          sizeOverride={false}
-          style={null}
-          title=""
-          type=""
-        />,
-        "circle": true,
-        "className": "md-activity md-activity__chat",
-        "color": undefined,
-        "containerLarge": false,
-        "disabled": false,
-        "onClick": null,
-        "size": 68,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "append": false,
-          "ariaLabel": null,
-          "buttonClassName": "",
-          "buttonProps": null,
-          "className": "",
-          "color": "",
-          "description": "",
-          "name": "chat_28",
-          "onClick": null,
-          "prepend": false,
-          "size": null,
-          "sizeOverride": false,
-          "style": null,
-          "title": "",
-          "type": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "defaultProps": undefined,
-        "displayName": "ContextTransform(Button)",
-        "propTypes": undefined,
-        "render": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-}
+    prepend={false}
+    size={null}
+    sizeOverride={false}
+    style={null}
+    title=""
+    type=""
+  />
+</ContextTransform(Button)>
 `;
