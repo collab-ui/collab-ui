@@ -1,457 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <SpaceListMeeting /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SpaceListMeeting
-    attendees={Array []}
-    buttonAriaLabel={null}
-    buttonClassName=""
-    buttonLabel=""
-    buttonOnClick={null}
-    buttonTabIndex="0"
-    childrenLeft={null}
-    childrenRight={null}
+<ContextTransform(ListItem)
+  className="md-list-item--space-meeting"
+  id=""
+  title="header"
+  type="space"
+>
+  <ListItemSection
     className=""
-    eventOverlayProps={null}
-    header="header"
-    id=""
-    isBold={false}
-    isMessagingOnlyShare={false}
-    meetingType=""
-    subheader=""
-    theme=""
-    title=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <ListItemSection
-          className=""
-          position="left"
-        >
-          <Avatar
-            alt="header"
-            backgroundColor=""
-            buttonClassName=""
-            className="md-list-item__avatar"
-            color=""
-            failureBadge={false}
-            hasNotification={false}
-            hideDefaultTooltip={false}
-            icon={null}
-            initials={null}
-            isDecrypting={false}
-            isOverview={false}
-            onClick={null}
-            size="medium"
-            src={null}
-            theme={null}
-            title="header"
-            type=""
-          />
-        </ListItemSection>,
-        <ListItemSection
-          className=""
-          position="center"
-        >
-          <div
-            className="md-list-item__header"
-          >
-            header
-          </div>
-          <div
-            className="md-list-item__subheader"
-          >
-            
-          </div>
-        </ListItemSection>,
-        <ListItemSection
-          className=""
-          position="right"
-        >
-          
-        </ListItemSection>,
-      ],
-      "className": "md-list-item--space-meeting",
-      "id": "",
-      "title": "header",
-      "type": "space",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "child-0",
-        "nodeType": "function",
-        "props": Object {
-          "children": <Avatar
-            alt="header"
-            backgroundColor=""
-            buttonClassName=""
-            className="md-list-item__avatar"
-            color=""
-            failureBadge={false}
-            hasNotification={false}
-            hideDefaultTooltip={false}
-            icon={null}
-            initials={null}
-            isDecrypting={false}
-            isOverview={false}
-            onClick={null}
-            size="medium"
-            src={null}
-            theme={null}
-            title="header"
-            type=""
-          />,
-          "className": "",
-          "position": "left",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "alt": "header",
-            "backgroundColor": "",
-            "buttonClassName": "",
-            "className": "md-list-item__avatar",
-            "color": "",
-            "failureBadge": false,
-            "hasNotification": false,
-            "hideDefaultTooltip": false,
-            "icon": null,
-            "initials": null,
-            "isDecrypting": false,
-            "isOverview": false,
-            "onClick": null,
-            "size": "medium",
-            "src": null,
-            "theme": null,
-            "title": "header",
-            "type": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "child-1",
-        "nodeType": "function",
-        "props": Object {
-          "children": Array [
-            <div
-              className="md-list-item__header"
-            >
-              header
-            </div>,
-            <div
-              className="md-list-item__subheader"
-            >
-              
-            </div>,
-          ],
-          "className": "",
-          "position": "center",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "header",
-              "className": "md-list-item__header",
-            },
-            "ref": null,
-            "rendered": "header",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "",
-              "className": "md-list-item__subheader",
-            },
-            "ref": null,
-            "rendered": "",
-            "type": "div",
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "child-2",
-        "nodeType": "function",
-        "props": Object {
-          "children": Array [
-            false,
-            "",
-          ],
-          "className": "",
-          "position": "right",
-        },
-        "ref": null,
-        "rendered": Array [
-          false,
-          "",
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "defaultProps": undefined,
-      "displayName": "ContextTransform(ListItem)",
-      "propTypes": undefined,
-      "render": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ListItemSection
-            className=""
-            position="left"
-          >
-            <Avatar
-              alt="header"
-              backgroundColor=""
-              buttonClassName=""
-              className="md-list-item__avatar"
-              color=""
-              failureBadge={false}
-              hasNotification={false}
-              hideDefaultTooltip={false}
-              icon={null}
-              initials={null}
-              isDecrypting={false}
-              isOverview={false}
-              onClick={null}
-              size="medium"
-              src={null}
-              theme={null}
-              title="header"
-              type=""
-            />
-          </ListItemSection>,
-          <ListItemSection
-            className=""
-            position="center"
-          >
-            <div
-              className="md-list-item__header"
-            >
-              header
-            </div>
-            <div
-              className="md-list-item__subheader"
-            >
-              
-            </div>
-          </ListItemSection>,
-          <ListItemSection
-            className=""
-            position="right"
-          >
-            
-          </ListItemSection>,
-        ],
-        "className": "md-list-item--space-meeting",
-        "id": "",
-        "title": "header",
-        "type": "space",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "child-0",
-          "nodeType": "function",
-          "props": Object {
-            "children": <Avatar
-              alt="header"
-              backgroundColor=""
-              buttonClassName=""
-              className="md-list-item__avatar"
-              color=""
-              failureBadge={false}
-              hasNotification={false}
-              hideDefaultTooltip={false}
-              icon={null}
-              initials={null}
-              isDecrypting={false}
-              isOverview={false}
-              onClick={null}
-              size="medium"
-              src={null}
-              theme={null}
-              title="header"
-              type=""
-            />,
-            "className": "",
-            "position": "left",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "alt": "header",
-              "backgroundColor": "",
-              "buttonClassName": "",
-              "className": "md-list-item__avatar",
-              "color": "",
-              "failureBadge": false,
-              "hasNotification": false,
-              "hideDefaultTooltip": false,
-              "icon": null,
-              "initials": null,
-              "isDecrypting": false,
-              "isOverview": false,
-              "onClick": null,
-              "size": "medium",
-              "src": null,
-              "theme": null,
-              "title": "header",
-              "type": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "child-1",
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              <div
-                className="md-list-item__header"
-              >
-                header
-              </div>,
-              <div
-                className="md-list-item__subheader"
-              >
-                
-              </div>,
-            ],
-            "className": "",
-            "position": "center",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "header",
-                "className": "md-list-item__header",
-              },
-              "ref": null,
-              "rendered": "header",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "",
-                "className": "md-list-item__subheader",
-              },
-              "ref": null,
-              "rendered": "",
-              "type": "div",
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "child-2",
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              false,
-              "",
-            ],
-            "className": "",
-            "position": "right",
-          },
-          "ref": null,
-          "rendered": Array [
-            false,
-            "",
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "defaultProps": undefined,
-        "displayName": "ContextTransform(ListItem)",
-        "propTypes": undefined,
-        "render": [Function],
-      },
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    key="child-0"
+    position="left"
+  >
+    <Avatar
+      alt="header"
+      backgroundColor=""
+      buttonClassName=""
+      className="md-list-item__avatar"
+      color=""
+      failureBadge={false}
+      hasNotification={false}
+      hideDefaultTooltip={false}
+      icon={null}
+      initials={null}
+      isDecrypting={false}
+      isOverview={false}
+      onClick={null}
+      size="medium"
+      src={null}
+      theme={null}
+      title="header"
+      type=""
+    />
+  </ListItemSection>
+  <ListItemSection
+    className=""
+    key="child-1"
+    position="center"
+  >
+    <div
+      className="md-list-item__header"
+    >
+      header
+    </div>
+    <div
+      className="md-list-item__subheader"
+    />
+  </ListItemSection>
+  <ListItemSection
+    className=""
+    key="child-2"
+    position="right"
+  />
+</ContextTransform(ListItem)>
 `;

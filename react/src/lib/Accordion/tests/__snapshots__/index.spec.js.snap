@@ -1,345 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <Accordion /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Accordion
+<div
+  className="md-accordion"
+>
+  <AccordionGroup
     className=""
-    initialActive={Array []}
-    multipleVisible={false}
-    onSelect={null}
+    disabled={false}
+    focus={true}
+    isExpanded={false}
+    key=".0"
+    onClick={[Function]}
+    onKeyDown={[Function]}
     showSeparator={false}
   >
-    <AccordionGroup
+    <AccordionHeader
       className=""
       disabled={false}
       focus={false}
-      isExpanded={false}
-      onClick={null}
-      onKeyDown={null}
-      showSeparator={false}
+      height=""
+      showSeparator={true}
     >
-      <AccordionHeader
-        className=""
-        disabled={false}
-        focus={false}
-        height=""
-        showSeparator={true}
-      >
-        <span>
-          Hi
-        </span>
-      </AccordionHeader>
-      <AccordionContent
-        className=""
-      >
-        <span>
-          Hello
-        </span>
-      </AccordionContent>
-    </AccordionGroup>
-  </Accordion>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <AccordionGroup
-          className=""
-          disabled={false}
-          focus={true}
-          isExpanded={false}
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          showSeparator={false}
-        >
-          <AccordionHeader
-            className=""
-            disabled={false}
-            focus={false}
-            height=""
-            showSeparator={true}
-          >
-            <span>
-              Hi
-            </span>
-          </AccordionHeader>
-          <AccordionContent
-            className=""
-          >
-            <span>
-              Hello
-            </span>
-          </AccordionContent>
-        </AccordionGroup>,
-      ],
-      "className": "md-accordion",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": ".0",
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <AccordionHeader
-              className=""
-              disabled={false}
-              focus={false}
-              height=""
-              showSeparator={true}
-            >
-              <span>
-                Hi
-              </span>
-            </AccordionHeader>,
-            <AccordionContent
-              className=""
-            >
-              <span>
-                Hello
-              </span>
-            </AccordionContent>,
-          ],
-          "className": "",
-          "disabled": false,
-          "focus": true,
-          "isExpanded": false,
-          "onClick": [Function],
-          "onKeyDown": [Function],
-          "showSeparator": false,
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <span>
-                Hi
-              </span>,
-              "className": "",
-              "disabled": false,
-              "focus": false,
-              "height": "",
-              "showSeparator": true,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Hi",
-              },
-              "ref": null,
-              "rendered": "Hi",
-              "type": "span",
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": <span>
-                Hello
-              </span>,
-              "className": "",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Hello",
-              },
-              "ref": null,
-              "rendered": "Hello",
-              "type": "span",
-            },
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <AccordionGroup
-            className=""
-            disabled={false}
-            focus={true}
-            isExpanded={false}
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            showSeparator={false}
-          >
-            <AccordionHeader
-              className=""
-              disabled={false}
-              focus={false}
-              height=""
-              showSeparator={true}
-            >
-              <span>
-                Hi
-              </span>
-            </AccordionHeader>
-            <AccordionContent
-              className=""
-            >
-              <span>
-                Hello
-              </span>
-            </AccordionContent>
-          </AccordionGroup>,
-        ],
-        "className": "md-accordion",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": ".0",
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <AccordionHeader
-                className=""
-                disabled={false}
-                focus={false}
-                height=""
-                showSeparator={true}
-              >
-                <span>
-                  Hi
-                </span>
-              </AccordionHeader>,
-              <AccordionContent
-                className=""
-              >
-                <span>
-                  Hello
-                </span>
-              </AccordionContent>,
-            ],
-            "className": "",
-            "disabled": false,
-            "focus": true,
-            "isExpanded": false,
-            "onClick": [Function],
-            "onKeyDown": [Function],
-            "showSeparator": false,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": <span>
-                  Hi
-                </span>,
-                "className": "",
-                "disabled": false,
-                "focus": false,
-                "height": "",
-                "showSeparator": true,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Hi",
-                },
-                "ref": null,
-                "rendered": "Hi",
-                "type": "span",
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": <span>
-                  Hello
-                </span>,
-                "className": "",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Hello",
-                },
-                "ref": null,
-                "rendered": "Hello",
-                "type": "span",
-              },
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+      <span>
+        Hi
+      </span>
+    </AccordionHeader>
+    <AccordionContent
+      className=""
+    >
+      <span>
+        Hello
+      </span>
+    </AccordionContent>
+  </AccordionGroup>
+</div>
 `;

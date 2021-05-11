@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Avatar, Icon } from '@momentum-ui/react';
 
 describe('tests for <Avatar />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Avatar />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('sequence of image load  ', () => {

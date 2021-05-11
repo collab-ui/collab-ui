@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { CallControl } from '@momentum-ui/react';
 
 describe('tests for <CallControl />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<CallControl type='microphone-muted' ariaLabel='test' />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Call Control button', () => {

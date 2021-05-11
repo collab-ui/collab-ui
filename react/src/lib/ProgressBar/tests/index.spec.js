@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ProgressBar } from '@momentum-ui/react';
 
 describe('tests for <ProgressBar />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ProgressBar label="test" value={50} />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one ProgressBar', () => {

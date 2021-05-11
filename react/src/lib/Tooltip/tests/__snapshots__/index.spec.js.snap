@@ -1,140 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <Tooltip /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Tooltip
-    className=""
-    popoverProps={Object {}}
-    tooltip="test"
-    tooltipTrigger="MouseEnter"
-    width={null}
-  >
-    <div>
-      Hi
-    </div>
-  </Tooltip>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "autoFocusOnFirstElt": false,
-      "children": <div>
-        Hi
-      </div>,
-      "className": "md-tooltip",
-      "closeOnFocusLeavesContent": false,
-      "content": <span
-        className="md-tooltip__text"
-      >
-        test
-      </span>,
-      "delay": 0,
-      "doesAnchorToggle": true,
-      "hideDelay": 0,
-      "hoverDelay": 500,
-      "includeFocusOnHover": true,
-      "onClose": null,
-      "overflowType": "auto",
-      "popoverTrigger": "MouseEnter",
-      "showArrow": true,
-      "showDelay": 0,
-      "startOpen": false,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Hi",
-      },
-      "ref": null,
-      "rendered": "Hi",
-      "type": "div",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "autoFocusOnFirstElt": false,
-        "children": <div>
-          Hi
-        </div>,
-        "className": "md-tooltip",
-        "closeOnFocusLeavesContent": false,
-        "content": <span
-          className="md-tooltip__text"
-        >
-          test
-        </span>,
-        "delay": 0,
-        "doesAnchorToggle": true,
-        "hideDelay": 0,
-        "hoverDelay": 500,
-        "includeFocusOnHover": true,
-        "onClose": null,
-        "overflowType": "auto",
-        "popoverTrigger": "MouseEnter",
-        "showArrow": true,
-        "showDelay": 0,
-        "startOpen": false,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hi",
-        },
-        "ref": null,
-        "rendered": "Hi",
-        "type": "div",
-      },
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+<Popover
+  autoFocusOnFirstElt={false}
+  className="md-tooltip"
+  closeOnFocusLeavesContent={false}
+  content={
+    <span
+      className="md-tooltip__text"
+    >
+      test
+    </span>
+  }
+  delay={0}
+  doesAnchorToggle={true}
+  hideDelay={0}
+  hoverDelay={500}
+  includeFocusOnHover={true}
+  onClose={null}
+  overflowType="auto"
+  popoverTrigger="MouseEnter"
+  showArrow={true}
+  showDelay={0}
+  startOpen={false}
+>
+  <div>
+    Hi
+  </div>
+</Popover>
 `;

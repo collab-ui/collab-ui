@@ -1,527 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <TopbarMobile /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TopbarMobile
-    brandNode={null}
+<div>
+  <Icon
+    append={false}
+    aria-pressed={false}
+    ariaLabel="Open Menu"
+    buttonClassName="md-top-bar__mobile-menu-button"
+    buttonProps={null}
     className=""
-    closeMenuAriaLabel="Close Menu"
+    color=""
+    description=""
+    name="list-menu_20"
+    onClick={[Function]}
+    prepend={false}
+    size={null}
+    sizeOverride={false}
+    style={null}
+    title=""
+    type=""
+  />
+  <div
+    className="md-top-bar__mobile md-tb-mobile"
     id="test"
-    openMenuAriaLabel="Open Menu"
-    shouldCloseOnClick={true}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <Icon
-          append={false}
-          aria-pressed={false}
-          ariaLabel="Open Menu"
-          buttonClassName="md-top-bar__mobile-menu-button"
-          buttonProps={null}
-          className=""
-          color=""
-          description=""
-          name="list-menu_20"
-          onClick={[Function]}
-          prepend={false}
-          size={null}
-          sizeOverride={false}
-          style={null}
-          title=""
-          type=""
-        />,
-        <div
-          className="md-top-bar__mobile md-tb-mobile"
-          id="test"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          role="menu"
-          tabIndex={0}
-        >
-          <Icon
-            append={false}
-            aria-pressed={false}
-            ariaLabel="Close Menu"
-            buttonClassName="md-tb-mobile__close"
-            buttonProps={null}
-            className=""
-            color=""
-            description=""
-            name="cancel_20"
-            onClick={[Function]}
-            prepend={false}
-            size={null}
-            sizeOverride={false}
-            style={null}
-            title=""
-            type=""
-          />
-          <span
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          />
-          <ListSeparator
-            className={null}
-            lineColor={null}
-            margin={null}
-            text={null}
-            textColor={null}
-            textPadding={null}
-          />
-          <nav
-            className="md-tb-mobile__nav"
-          />
-        </div>,
-        <div
-          className="md-tb-mobile__mask"
-          onClick={[Function]}
-          role="none"
-        />,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "append": false,
-          "aria-pressed": false,
-          "ariaLabel": "Open Menu",
-          "buttonClassName": "md-top-bar__mobile-menu-button",
-          "buttonProps": null,
-          "className": "",
-          "color": "",
-          "description": "",
-          "name": "list-menu_20",
-          "onClick": [Function],
-          "prepend": false,
-          "size": null,
-          "sizeOverride": false,
-          "style": null,
-          "title": "",
-          "type": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <Icon
-              append={false}
-              aria-pressed={false}
-              ariaLabel="Close Menu"
-              buttonClassName="md-tb-mobile__close"
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_20"
-              onClick={[Function]}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />,
-            <span
-              onClick={[Function]}
-              onKeyDown={[Function]}
-            />,
-            <ListSeparator
-              className={null}
-              lineColor={null}
-              margin={null}
-              text={null}
-              textColor={null}
-              textPadding={null}
-            />,
-            <nav
-              className="md-tb-mobile__nav"
-            />,
-          ],
-          "className": "md-top-bar__mobile md-tb-mobile",
-          "id": "test",
-          "onClick": [Function],
-          "onKeyDown": [Function],
-          "role": "menu",
-          "tabIndex": 0,
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "append": false,
-              "aria-pressed": false,
-              "ariaLabel": "Close Menu",
-              "buttonClassName": "md-tb-mobile__close",
-              "buttonProps": null,
-              "className": "",
-              "color": "",
-              "description": "",
-              "name": "cancel_20",
-              "onClick": [Function],
-              "prepend": false,
-              "size": null,
-              "sizeOverride": false,
-              "style": null,
-              "title": "",
-              "type": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": null,
-              "onClick": [Function],
-              "onKeyDown": [Function],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "span",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": null,
-              "className": null,
-              "lineColor": null,
-              "margin": null,
-              "text": null,
-              "textColor": null,
-              "textPadding": null,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": null,
-              "className": "md-tb-mobile__nav",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "nav",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "md-tb-mobile__mask",
-          "onClick": [Function],
-          "role": "none",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Icon
-            append={false}
-            aria-pressed={false}
-            ariaLabel="Open Menu"
-            buttonClassName="md-top-bar__mobile-menu-button"
-            buttonProps={null}
-            className=""
-            color=""
-            description=""
-            name="list-menu_20"
-            onClick={[Function]}
-            prepend={false}
-            size={null}
-            sizeOverride={false}
-            style={null}
-            title=""
-            type=""
-          />,
-          <div
-            className="md-top-bar__mobile md-tb-mobile"
-            id="test"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            role="menu"
-            tabIndex={0}
-          >
-            <Icon
-              append={false}
-              aria-pressed={false}
-              ariaLabel="Close Menu"
-              buttonClassName="md-tb-mobile__close"
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_20"
-              onClick={[Function]}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-            <span
-              onClick={[Function]}
-              onKeyDown={[Function]}
-            />
-            <ListSeparator
-              className={null}
-              lineColor={null}
-              margin={null}
-              text={null}
-              textColor={null}
-              textPadding={null}
-            />
-            <nav
-              className="md-tb-mobile__nav"
-            />
-          </div>,
-          <div
-            className="md-tb-mobile__mask"
-            onClick={[Function]}
-            role="none"
-          />,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "append": false,
-            "aria-pressed": false,
-            "ariaLabel": "Open Menu",
-            "buttonClassName": "md-top-bar__mobile-menu-button",
-            "buttonProps": null,
-            "className": "",
-            "color": "",
-            "description": "",
-            "name": "list-menu_20",
-            "onClick": [Function],
-            "prepend": false,
-            "size": null,
-            "sizeOverride": false,
-            "style": null,
-            "title": "",
-            "type": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Icon
-                append={false}
-                aria-pressed={false}
-                ariaLabel="Close Menu"
-                buttonClassName="md-tb-mobile__close"
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_20"
-                onClick={[Function]}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />,
-              <span
-                onClick={[Function]}
-                onKeyDown={[Function]}
-              />,
-              <ListSeparator
-                className={null}
-                lineColor={null}
-                margin={null}
-                text={null}
-                textColor={null}
-                textPadding={null}
-              />,
-              <nav
-                className="md-tb-mobile__nav"
-              />,
-            ],
-            "className": "md-top-bar__mobile md-tb-mobile",
-            "id": "test",
-            "onClick": [Function],
-            "onKeyDown": [Function],
-            "role": "menu",
-            "tabIndex": 0,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "append": false,
-                "aria-pressed": false,
-                "ariaLabel": "Close Menu",
-                "buttonClassName": "md-tb-mobile__close",
-                "buttonProps": null,
-                "className": "",
-                "color": "",
-                "description": "",
-                "name": "cancel_20",
-                "onClick": [Function],
-                "prepend": false,
-                "size": null,
-                "sizeOverride": false,
-                "style": null,
-                "title": "",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": null,
-                "onClick": [Function],
-                "onKeyDown": [Function],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "span",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": null,
-                "className": null,
-                "lineColor": null,
-                "margin": null,
-                "text": null,
-                "textColor": null,
-                "textPadding": null,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": null,
-                "className": "md-tb-mobile__nav",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "nav",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "md-tb-mobile__mask",
-            "onClick": [Function],
-            "role": "none",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="menu"
+    tabIndex={0}
+  >
+    <Icon
+      append={false}
+      aria-pressed={false}
+      ariaLabel="Close Menu"
+      buttonClassName="md-tb-mobile__close"
+      buttonProps={null}
+      className=""
+      color=""
+      description=""
+      name="cancel_20"
+      onClick={[Function]}
+      prepend={false}
+      size={null}
+      sizeOverride={false}
+      style={null}
+      title=""
+      type=""
+    />
+    <span
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    />
+    <ListSeparator
+      className={null}
+      lineColor={null}
+      margin={null}
+      text={null}
+      textColor={null}
+      textPadding={null}
+    />
+    <nav
+      className="md-tb-mobile__nav"
+    />
+  </div>
+  <div
+    className="md-tb-mobile__mask"
+    onClick={[Function]}
+    role="none"
+  />
+</div>
 `;

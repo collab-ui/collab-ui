@@ -1,5 +1,6 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import DatePicker from '../index';
 import moment from 'moment-timezone';
 
@@ -23,7 +24,7 @@ describe('tests for <DatePicker />', () => {
         <div className="trigger">Select Date</div>
       </DatePicker>
     );
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it("should focus/select the selectedDate day if passed", () => {

@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Breadcrumbs } from '@momentum-ui/react';
 
 describe('tests for <Breadcrumbs />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Breadcrumbs />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one UL', () => {

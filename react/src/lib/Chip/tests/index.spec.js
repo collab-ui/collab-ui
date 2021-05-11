@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Chip } from '@momentum-ui/react';
 
 describe('<Chip />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Chip type="recording" title="Recording" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render the correct left content for a recording chip', () => {

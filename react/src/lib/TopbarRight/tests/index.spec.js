@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { TopbarRight } from '@momentum-ui/react';
 import { prefix } from '../../utils/index';
 
@@ -7,7 +8,7 @@ describe('tests for <TopbarRight />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<TopbarRight id="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one TopbarRight', () => {

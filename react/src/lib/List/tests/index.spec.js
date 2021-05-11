@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   List,
   ListItem,
@@ -15,7 +16,7 @@ describe('tests for <List />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<List id="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one List', () => {
@@ -332,7 +333,7 @@ describe('tests for <List />', () => {
         <ListItem className='secondIndex' label="test" id='test-list-2' link='javscript:void(0)' />
         <ListItem className='thirdIndex' label="test" id='test-list-3' link='javscript:void(0)' />
       </List>
-    );
+    , { attachTo: document.body });
 
     expect(container.state().listContext.active).toEqual('test-list-2');
     expect(container.state().listContext.focus).toEqual('test-list-2');

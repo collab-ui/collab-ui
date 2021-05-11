@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { FormInfo } from '@momentum-ui/react';
 
 describe('tests for <FormInfo />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<FormInfo />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one FormInfo', () => {

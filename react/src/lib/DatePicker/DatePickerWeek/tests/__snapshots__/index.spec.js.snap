@@ -1,385 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <DatePickerWeek /> should match week SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <DatePickerWeek
+<div
+  className="md-datepicker__week"
+>
+  <ContextTransform(DatePickerDay)
     day={"2018-03-31T18:30:00.000Z"}
+    key="0"
     month={3}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <ForwardRef(render)
-          day={"2018-03-31T18:30:00.000Z"}
-          month={3}
-        />,
-        <ForwardRef(render)
-          day={"2018-04-01T18:30:00.000Z"}
-          month={3}
-        />,
-        <ForwardRef(render)
-          day={"2018-04-02T18:30:00.000Z"}
-          month={3}
-        />,
-        <ForwardRef(render)
-          day={"2018-04-03T18:30:00.000Z"}
-          month={3}
-        />,
-        <ForwardRef(render)
-          day={"2018-04-04T18:30:00.000Z"}
-          month={3}
-        />,
-        <ForwardRef(render)
-          day={"2018-04-05T18:30:00.000Z"}
-          month={3}
-        />,
-        <ForwardRef(render)
-          day={"2018-04-06T18:30:00.000Z"}
-          month={3}
-        />,
-      ],
-      "className": "md-datepicker__week",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "0",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-03-31T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": "1",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-04-01T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": "2",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-04-02T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": "3",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-04-03T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": "4",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-04-04T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": "5",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-04-05T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-      Object {
-        "instance": null,
-        "key": "6",
-        "nodeType": "function",
-        "props": Object {
-          "day": "2018-04-06T18:30:00.000Z",
-          "month": 3,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "displayName": "ContextTransform(DatePickerDay)",
-          "propTypes": undefined,
-          "render": [Function],
-        },
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ForwardRef(render)
-            day={"2018-03-31T18:30:00.000Z"}
-            month={3}
-          />,
-          <ForwardRef(render)
-            day={"2018-04-01T18:30:00.000Z"}
-            month={3}
-          />,
-          <ForwardRef(render)
-            day={"2018-04-02T18:30:00.000Z"}
-            month={3}
-          />,
-          <ForwardRef(render)
-            day={"2018-04-03T18:30:00.000Z"}
-            month={3}
-          />,
-          <ForwardRef(render)
-            day={"2018-04-04T18:30:00.000Z"}
-            month={3}
-          />,
-          <ForwardRef(render)
-            day={"2018-04-05T18:30:00.000Z"}
-            month={3}
-          />,
-          <ForwardRef(render)
-            day={"2018-04-06T18:30:00.000Z"}
-            month={3}
-          />,
-        ],
-        "className": "md-datepicker__week",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "0",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-03-31T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-04-01T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": "2",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-04-02T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": "3",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-04-03T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": "4",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-04-04T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": "5",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-04-05T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": "6",
-          "nodeType": "function",
-          "props": Object {
-            "day": "2018-04-06T18:30:00.000Z",
-            "month": 3,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "displayName": "ContextTransform(DatePickerDay)",
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+  />
+  <ContextTransform(DatePickerDay)
+    day={"2018-04-01T18:30:00.000Z"}
+    key="1"
+    month={3}
+  />
+  <ContextTransform(DatePickerDay)
+    day={"2018-04-02T18:30:00.000Z"}
+    key="2"
+    month={3}
+  />
+  <ContextTransform(DatePickerDay)
+    day={"2018-04-03T18:30:00.000Z"}
+    key="3"
+    month={3}
+  />
+  <ContextTransform(DatePickerDay)
+    day={"2018-04-04T18:30:00.000Z"}
+    key="4"
+    month={3}
+  />
+  <ContextTransform(DatePickerDay)
+    day={"2018-04-05T18:30:00.000Z"}
+    key="5"
+    month={3}
+  />
+  <ContextTransform(DatePickerDay)
+    day={"2018-04-06T18:30:00.000Z"}
+    key="6"
+    month={3}
+  />
+</div>
 `;

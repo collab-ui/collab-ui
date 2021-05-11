@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { InputSearch } from '@momentum-ui/react';
 
 describe('tests for <InputSearch />', () => {
@@ -8,7 +9,7 @@ describe('tests for <InputSearch />', () => {
       <InputSearch id="1" name="test" />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should match pill SnapShot', () => {
@@ -16,7 +17,7 @@ describe('tests for <InputSearch />', () => {
       <InputSearch id="1" name="test" shape='pill' />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should match loading SnapShot', () => {
@@ -24,7 +25,7 @@ describe('tests for <InputSearch />', () => {
       <InputSearch id="1" name="test" isLoading />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should pass isLoading prop', () => {

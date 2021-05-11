@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Accordion,
   AccordionHeader,
@@ -21,7 +22,7 @@ describe('tests for <Accordion />', () => {
         </AccordionGroup>
       </Accordion>
     );
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('with multipleVisible as true, multiple AccordionGroups can be open', () => {

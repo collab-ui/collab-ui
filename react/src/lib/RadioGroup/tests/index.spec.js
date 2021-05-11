@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   RadioGroup,
   Radio,
@@ -9,7 +10,7 @@ describe('tests for <RadioGroup />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<RadioGroup />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one RadioGroup', () => {

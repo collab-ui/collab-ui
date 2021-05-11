@@ -6,21 +6,22 @@
  *
  */
 
-import reset from "@/wc_scss/reset.scss";
+import "@/components/button/Button";
 import "@/components/icon/Icon";
 import "@/components/menu-overlay/MenuOverlay";
-import "@/components/button/Button";
-import { html, internalProperty, LitElement, property, query, queryAll, PropertyValues } from "lit-element";
-import styles from "./scss/module.scss";
-import { ifDefined } from "lit-html/directives/if-defined";
-import { classMap } from "lit-html/directives/class-map";
-import { templateContent } from "lit-html/directives/template-content";
-import { nothing, TemplateResult } from "lit-html";
-import Papa from "papaparse";
 import { customElementWithCheck } from "@/mixins/CustomElementCheck";
-import { Filter } from "./src/filter";
 import { FocusTrapMixin } from "@/mixins/FocusTrapMixin";
+import reset from "@/wc_scss/reset.scss";
+import { nothing, TemplateResult } from "lit-html";
+import "@/components/button/Button";
+import { html, internalProperty, LitElement, property, queryAll, PropertyValues } from "lit-element";
+import { classMap } from "lit-html/directives/class-map";
+import { ifDefined } from "lit-html/directives/if-defined";
+import { templateContent } from "lit-html/directives/template-content";
+import Papa from "papaparse";
+import styles from "./scss/module.scss";
 import { debounce, Evt, evt, TemplateCallback, templateCallback, TemplateInfo } from "./src/decorators";
+import { Filter } from "./src/filter";
 
 const IMG = document.createElement("img");
 IMG.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
@@ -73,10 +74,10 @@ export namespace TableAdvanced {
 
     protected update(changedProperties: PropertyValues) {
       super.update(changedProperties);
-      if (changedProperties.has("data")) {  
+      if (changedProperties.has("data")) {
          this.updateDataInTable();
       }
-    } 
+    }
 
     private populateColumns() {
       let index = 0;
@@ -165,7 +166,7 @@ export namespace TableAdvanced {
            "DATA ERROR: Data length mismatch. You must provide (numberOfRows * numberOfColumns) amount of data values.";
          return;
        }
- 
+
        this.ROWS.forEach((d, i) => {
          const len = d.length;
          if (len != lenNodes) {
@@ -190,12 +191,12 @@ export namespace TableAdvanced {
                    console.warn(`cellTemplates["${k}"]: Missing '${t.templateName}' template.`);
                    continue;
                  }
- 
+
                  let text = cell.text.replace(k, "");
                  if (t.contentCb) {
                    text = t.contentCb({ col: iCol, row: iRow, content: text, insertIndex: idx });
                  }
- 
+
                  this.ROWS[iRow][iCol] = {
                    text,
                    template: {
@@ -210,7 +211,7 @@ export namespace TableAdvanced {
            });
          });
        }
- 
+
     }
 
     private setDefaultFilterAndSort() {
@@ -808,7 +809,7 @@ export namespace TableAdvanced {
             const col = this.COLS[j];
 
             // content
-            let content: TemplateResult | string = cell.text;
+            let content: TemplateResult | string | unknown = cell.text;
             const t = cell.template;
             if (t) {
               content = t.templateCb

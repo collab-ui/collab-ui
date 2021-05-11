@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { InputSection } from '@momentum-ui/react';
 
 describe('tests for <InputSection />', () => {
   it('should match text SnapShot', () => {
     const container = shallow(<InputSection />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render input section with position class', () => {

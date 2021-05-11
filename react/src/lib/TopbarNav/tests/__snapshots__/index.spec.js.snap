@@ -1,179 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <TopbarNav /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TopbarNav
-    alignment={null}
+<nav
+  className="md-top-bar__nav"
+  id="test"
+>
+  <List
+    active={null}
+    ariaConfig={null}
     className=""
-    id="test"
-    listProps={Object {}}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": <List
-        active={null}
-        ariaConfig={null}
-        className=""
-        focus={null}
-        focusFirst={true}
-        focusFirstQuery=""
-        focusQuery=""
-        id={null}
-        itemRole="listitem"
-        navigationDirection="both"
-        onSelect={null}
-        role="list"
-        shouldFocusActive={false}
-        shouldFocusInitial={true}
-        shouldLoop={true}
-        shouldPropagateKeyDown={false}
-        tabType="horizontal"
-        trackActive={true}
-        type={null}
-        wrap={false}
-      />,
-      "className": "md-top-bar__nav",
-      "id": "test",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "active": null,
-        "ariaConfig": null,
-        "children": null,
-        "className": "",
-        "focus": null,
-        "focusFirst": true,
-        "focusFirstQuery": "",
-        "focusQuery": "",
-        "id": null,
-        "itemRole": "listitem",
-        "navigationDirection": "both",
-        "onSelect": null,
-        "role": "list",
-        "shouldFocusActive": false,
-        "shouldFocusInitial": true,
-        "shouldLoop": true,
-        "shouldPropagateKeyDown": false,
-        "tabType": "horizontal",
-        "trackActive": true,
-        "type": null,
-        "wrap": false,
-      },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": "nav",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <List
-          active={null}
-          ariaConfig={null}
-          className=""
-          focus={null}
-          focusFirst={true}
-          focusFirstQuery=""
-          focusQuery=""
-          id={null}
-          itemRole="listitem"
-          navigationDirection="both"
-          onSelect={null}
-          role="list"
-          shouldFocusActive={false}
-          shouldFocusInitial={true}
-          shouldLoop={true}
-          shouldPropagateKeyDown={false}
-          tabType="horizontal"
-          trackActive={true}
-          type={null}
-          wrap={false}
-        />,
-        "className": "md-top-bar__nav",
-        "id": "test",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "active": null,
-          "ariaConfig": null,
-          "children": null,
-          "className": "",
-          "focus": null,
-          "focusFirst": true,
-          "focusFirstQuery": "",
-          "focusQuery": "",
-          "id": null,
-          "itemRole": "listitem",
-          "navigationDirection": "both",
-          "onSelect": null,
-          "role": "list",
-          "shouldFocusActive": false,
-          "shouldFocusInitial": true,
-          "shouldLoop": true,
-          "shouldPropagateKeyDown": false,
-          "tabType": "horizontal",
-          "trackActive": true,
-          "type": null,
-          "wrap": false,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      "type": "nav",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    focus={null}
+    focusFirst={true}
+    focusFirstQuery=""
+    focusQuery=""
+    id={null}
+    itemRole="listitem"
+    navigationDirection="both"
+    onSelect={null}
+    role="list"
+    shouldFocusActive={false}
+    shouldFocusInitial={true}
+    shouldLoop={true}
+    shouldPropagateKeyDown={false}
+    tabType="horizontal"
+    trackActive={true}
+    type={null}
+    wrap={false}
+  />
+</nav>
 `;

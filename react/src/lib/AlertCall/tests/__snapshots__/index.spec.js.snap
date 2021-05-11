@@ -1,1517 +1,173 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <AlertCall /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <AlertCall
-    avatar={null}
-    avatarProps={null}
-    caller={
-      Object {
-        "alt": "+1 408-555-1212",
-        "title": "Jefe Guadelupe",
-      }
-    }
-    defaultSelectedDevice={0}
-    deviceListHeader="Device selection"
-    deviceListProps={null}
-    devices={Array []}
-    onAnswerShare={null}
-    onAnswerVideo={null}
-    onAnswerVoice={null}
-    onDeviceSelect={null}
-    onReject={null}
-    rejectAriaLabel="reject call"
-    rejectBtnProps={null}
-    shareAriaLabel="answer call with share"
-    shareBtnProps={null}
-    show={true}
-    title="Incoming call"
-    videoAriaLabel="answer call with video"
-    videoBtnProps={null}
-    voiceAriaLabel="answer call with voice"
-    voiceBtnProps={null}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <div
-          className="md-alert__title"
-        >
-          Incoming call
-        </div>,
-        <div
-          className="md-alert__caller"
-        >
-          <Avatar
-            alt="Jefe Guadelupe"
-            backgroundColor=""
-            buttonClassName=""
-            className={null}
-            color=""
-            failureBadge={false}
-            hasNotification={false}
-            hideDefaultTooltip={false}
-            icon={null}
-            initials={null}
-            isDecrypting={false}
-            isOverview={false}
-            onClick={null}
-            size="xlarge"
-            src={null}
-            theme={null}
-            title="Jefe Guadelupe"
-            type=""
-          />
-          <div
-            className="md-alert__caller-title"
-          >
-            Jefe Guadelupe
-          </div>
-          <div
-            className="md-alert__caller-subtitle"
-          >
-            +1 408-555-1212
-          </div>
-        </div>,
-        <Unknown />,
-        <div
-          className="md-alert--call--buttons"
-        >
-          <ForwardRef(render)
-            ariaLabel="reject call"
-            circle={true}
-            color="red"
-            onClick={null}
-            size={44}
-          >
-            <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_24"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-          </ForwardRef(render)>
-        </div>,
-      ],
-      "className": "md-alert md-alert--call",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Incoming call",
-          "className": "md-alert__title",
-        },
-        "ref": null,
-        "rendered": "Incoming call",
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <Avatar
-              alt="Jefe Guadelupe"
-              backgroundColor=""
-              buttonClassName=""
-              className={null}
-              color=""
-              failureBadge={false}
-              hasNotification={false}
-              hideDefaultTooltip={false}
-              icon={null}
-              initials={null}
-              isDecrypting={false}
-              isOverview={false}
-              onClick={null}
-              size="xlarge"
-              src={null}
-              theme={null}
-              title="Jefe Guadelupe"
-              type=""
-            />,
-            <div
-              className="md-alert__caller-title"
-            >
-              Jefe Guadelupe
-            </div>,
-            <div
-              className="md-alert__caller-subtitle"
-            >
-              +1 408-555-1212
-            </div>,
-          ],
-          "className": "md-alert__caller",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "alt": "Jefe Guadelupe",
-              "backgroundColor": "",
-              "buttonClassName": "",
-              "className": null,
-              "color": "",
-              "failureBadge": false,
-              "hasNotification": false,
-              "hideDefaultTooltip": false,
-              "icon": null,
-              "initials": null,
-              "isDecrypting": false,
-              "isOverview": false,
-              "onClick": null,
-              "size": "xlarge",
-              "src": null,
-              "theme": null,
-              "title": "Jefe Guadelupe",
-              "type": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Jefe Guadelupe",
-              "className": "md-alert__caller-title",
-            },
-            "ref": null,
-            "rendered": "Jefe Guadelupe",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "+1 408-555-1212",
-              "className": "md-alert__caller-subtitle",
-            },
-            "ref": null,
-            "rendered": "+1 408-555-1212",
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": false,
-        },
-        "ref": null,
-        "rendered": false,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            null,
-            null,
-            null,
-            <ForwardRef(render)
-              ariaLabel="reject call"
-              circle={true}
-              color="red"
-              onClick={null}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_24"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>,
-          ],
-          "className": "md-alert--call--buttons",
-        },
-        "ref": null,
-        "rendered": Array [
-          null,
-          null,
-          null,
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "ariaLabel": "reject call",
-              "children": <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_24"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />,
-              "circle": true,
-              "color": "red",
-              "onClick": null,
-              "size": 44,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "append": false,
-                "ariaLabel": null,
-                "buttonClassName": "",
-                "buttonProps": null,
-                "className": "",
-                "color": "",
-                "description": "",
-                "name": "cancel_24",
-                "onClick": null,
-                "prepend": false,
-                "size": null,
-                "sizeOverride": false,
-                "style": null,
-                "title": "",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "defaultProps": undefined,
-              "displayName": "ContextTransform(Button)",
-              "propTypes": undefined,
-              "render": [Function],
-            },
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="md-alert__title"
-          >
-            Incoming call
-          </div>,
-          <div
-            className="md-alert__caller"
-          >
-            <Avatar
-              alt="Jefe Guadelupe"
-              backgroundColor=""
-              buttonClassName=""
-              className={null}
-              color=""
-              failureBadge={false}
-              hasNotification={false}
-              hideDefaultTooltip={false}
-              icon={null}
-              initials={null}
-              isDecrypting={false}
-              isOverview={false}
-              onClick={null}
-              size="xlarge"
-              src={null}
-              theme={null}
-              title="Jefe Guadelupe"
-              type=""
-            />
-            <div
-              className="md-alert__caller-title"
-            >
-              Jefe Guadelupe
-            </div>
-            <div
-              className="md-alert__caller-subtitle"
-            >
-              +1 408-555-1212
-            </div>
-          </div>,
-          <Unknown />,
-          <div
-            className="md-alert--call--buttons"
-          >
-            <ForwardRef(render)
-              ariaLabel="reject call"
-              circle={true}
-              color="red"
-              onClick={null}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_24"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>
-          </div>,
-        ],
-        "className": "md-alert md-alert--call",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Incoming call",
-            "className": "md-alert__title",
-          },
-          "ref": null,
-          "rendered": "Incoming call",
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Avatar
-                alt="Jefe Guadelupe"
-                backgroundColor=""
-                buttonClassName=""
-                className={null}
-                color=""
-                failureBadge={false}
-                hasNotification={false}
-                hideDefaultTooltip={false}
-                icon={null}
-                initials={null}
-                isDecrypting={false}
-                isOverview={false}
-                onClick={null}
-                size="xlarge"
-                src={null}
-                theme={null}
-                title="Jefe Guadelupe"
-                type=""
-              />,
-              <div
-                className="md-alert__caller-title"
-              >
-                Jefe Guadelupe
-              </div>,
-              <div
-                className="md-alert__caller-subtitle"
-              >
-                +1 408-555-1212
-              </div>,
-            ],
-            "className": "md-alert__caller",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "alt": "Jefe Guadelupe",
-                "backgroundColor": "",
-                "buttonClassName": "",
-                "className": null,
-                "color": "",
-                "failureBadge": false,
-                "hasNotification": false,
-                "hideDefaultTooltip": false,
-                "icon": null,
-                "initials": null,
-                "isDecrypting": false,
-                "isOverview": false,
-                "onClick": null,
-                "size": "xlarge",
-                "src": null,
-                "theme": null,
-                "title": "Jefe Guadelupe",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Jefe Guadelupe",
-                "className": "md-alert__caller-title",
-              },
-              "ref": null,
-              "rendered": "Jefe Guadelupe",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "+1 408-555-1212",
-                "className": "md-alert__caller-subtitle",
-              },
-              "ref": null,
-              "rendered": "+1 408-555-1212",
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": false,
-          },
-          "ref": null,
-          "rendered": false,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              null,
-              null,
-              null,
-              <ForwardRef(render)
-                ariaLabel="reject call"
-                circle={true}
-                color="red"
-                onClick={null}
-                size={44}
-              >
-                <Icon
-                  append={false}
-                  ariaLabel={null}
-                  buttonClassName=""
-                  buttonProps={null}
-                  className=""
-                  color=""
-                  description=""
-                  name="cancel_24"
-                  onClick={null}
-                  prepend={false}
-                  size={null}
-                  sizeOverride={false}
-                  style={null}
-                  title=""
-                  type=""
-                />
-              </ForwardRef(render)>,
-            ],
-            "className": "md-alert--call--buttons",
-          },
-          "ref": null,
-          "rendered": Array [
-            null,
-            null,
-            null,
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "ariaLabel": "reject call",
-                "children": <Icon
-                  append={false}
-                  ariaLabel={null}
-                  buttonClassName=""
-                  buttonProps={null}
-                  className=""
-                  color=""
-                  description=""
-                  name="cancel_24"
-                  onClick={null}
-                  prepend={false}
-                  size={null}
-                  sizeOverride={false}
-                  style={null}
-                  title=""
-                  type=""
-                />,
-                "circle": true,
-                "color": "red",
-                "onClick": null,
-                "size": 44,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "append": false,
-                  "ariaLabel": null,
-                  "buttonClassName": "",
-                  "buttonProps": null,
-                  "className": "",
-                  "color": "",
-                  "description": "",
-                  "name": "cancel_24",
-                  "onClick": null,
-                  "prepend": false,
-                  "size": null,
-                  "sizeOverride": false,
-                  "style": null,
-                  "title": "",
-                  "type": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "defaultProps": undefined,
-                "displayName": "ContextTransform(Button)",
-                "propTypes": undefined,
-                "render": [Function],
-              },
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-}
+<div
+  className="md-alert md-alert--call"
+>
+  <div
+    className="md-alert__title"
+  >
+    Incoming call
+  </div>
+  <div
+    className="md-alert__caller"
+  >
+    <Avatar
+      alt="Jefe Guadelupe"
+      backgroundColor=""
+      buttonClassName=""
+      className={null}
+      color=""
+      failureBadge={false}
+      hasNotification={false}
+      hideDefaultTooltip={false}
+      icon={null}
+      initials={null}
+      isDecrypting={false}
+      isOverview={false}
+      onClick={null}
+      size="xlarge"
+      src={null}
+      theme={null}
+      title="Jefe Guadelupe"
+      type=""
+    />
+    <div
+      className="md-alert__caller-title"
+    >
+      Jefe Guadelupe
+    </div>
+    <div
+      className="md-alert__caller-subtitle"
+    >
+      +1 408-555-1212
+    </div>
+  </div>
+  <Component />
+  <div
+    className="md-alert--call--buttons"
+  >
+    <ContextTransform(Button)
+      ariaLabel="reject call"
+      circle={true}
+      color="red"
+      onClick={null}
+      size={44}
+    >
+      <Icon
+        append={false}
+        ariaLabel={null}
+        buttonClassName=""
+        buttonProps={null}
+        className=""
+        color=""
+        description=""
+        name="cancel_24"
+        onClick={null}
+        prepend={false}
+        size={null}
+        sizeOverride={false}
+        style={null}
+        title=""
+        type=""
+      />
+    </ContextTransform(Button)>
+  </div>
+</div>
 `;
 
 exports[`tests for <AlertCall /> should match SnapShot with devices 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <AlertCall
-    avatar={null}
-    avatarProps={null}
-    caller={
-      Object {
-        "alt": "+1 408-555-1212",
-        "title": "Jefe Guadelupe",
+<div
+  className="md-alert md-alert--call"
+>
+  <div
+    className="md-alert__title"
+  >
+    Incoming call
+  </div>
+  <div
+    className="md-alert__caller"
+  >
+    <Avatar
+      alt="Jefe Guadelupe"
+      backgroundColor=""
+      buttonClassName=""
+      className={null}
+      color=""
+      failureBadge={false}
+      hasNotification={false}
+      hideDefaultTooltip={false}
+      icon={null}
+      initials={null}
+      isDecrypting={false}
+      isOverview={false}
+      onClick={null}
+      size="xlarge"
+      src={null}
+      theme={null}
+      title="Jefe Guadelupe"
+      type=""
+    />
+    <div
+      className="md-alert__caller-title"
+    >
+      Jefe Guadelupe
+    </div>
+    <div
+      className="md-alert__caller-subtitle"
+    >
+      +1 408-555-1212
+    </div>
+  </div>
+  <Component>
+    <DeviceListCall
+      className=""
+      defaultSelected={0}
+      devices={
+        Array [
+          Object {
+            "name": "SJC21-Babelfish",
+            "type": "device",
+            "value": "1010101",
+          },
+          Object {
+            "name": "Use my computer",
+            "value": "2020202",
+          },
+        ]
       }
-    }
-    defaultSelectedDevice={0}
-    deviceListHeader="Device selection"
-    deviceListProps={null}
-    devices={
-      Array [
-        Object {
-          "name": "SJC21-Babelfish",
-          "type": "device",
-          "value": "1010101",
-        },
-        Object {
-          "name": "Use my computer",
-          "value": "2020202",
-        },
-      ]
-    }
-    onAnswerShare={null}
-    onAnswerVideo={null}
-    onAnswerVoice={null}
-    onDeviceSelect={null}
-    onReject={null}
-    rejectAriaLabel="reject call"
-    rejectBtnProps={null}
-    shareAriaLabel="answer call with share"
-    shareBtnProps={null}
-    show={true}
-    title="Incoming call"
-    videoAriaLabel="answer call with video"
-    videoBtnProps={null}
-    voiceAriaLabel="answer call with voice"
-    voiceBtnProps={null}
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <div
-          className="md-alert__title"
-        >
-          Incoming call
-        </div>,
-        <div
-          className="md-alert__caller"
-        >
-          <Avatar
-            alt="Jefe Guadelupe"
-            backgroundColor=""
-            buttonClassName=""
-            className={null}
-            color=""
-            failureBadge={false}
-            hasNotification={false}
-            hideDefaultTooltip={false}
-            icon={null}
-            initials={null}
-            isDecrypting={false}
-            isOverview={false}
-            onClick={null}
-            size="xlarge"
-            src={null}
-            theme={null}
-            title="Jefe Guadelupe"
-            type=""
-          />
-          <div
-            className="md-alert__caller-title"
-          >
-            Jefe Guadelupe
-          </div>
-          <div
-            className="md-alert__caller-subtitle"
-          >
-            +1 408-555-1212
-          </div>
-        </div>,
-        <Unknown>
-          <DeviceListCall
-            className=""
-            defaultSelected={0}
-            devices={
-              Array [
-                Object {
-                  "name": "SJC21-Babelfish",
-                  "type": "device",
-                  "value": "1010101",
-                },
-                Object {
-                  "name": "Use my computer",
-                  "value": "2020202",
-                },
-              ]
-            }
-            header="Device selection"
-            onSelect={null}
-          />
-        </Unknown>,
-        <div
-          className="md-alert--call--buttons"
-        >
-          <ForwardRef(render)
-            ariaLabel="reject call"
-            circle={true}
-            color="red"
-            onClick={null}
-            size={44}
-          >
-            <Icon
-              append={false}
-              ariaLabel={null}
-              buttonClassName=""
-              buttonProps={null}
-              className=""
-              color=""
-              description=""
-              name="cancel_24"
-              onClick={null}
-              prepend={false}
-              size={null}
-              sizeOverride={false}
-              style={null}
-              title=""
-              type=""
-            />
-          </ForwardRef(render)>
-        </div>,
-      ],
-      "className": "md-alert md-alert--call",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Incoming call",
-          "className": "md-alert__title",
-        },
-        "ref": null,
-        "rendered": "Incoming call",
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <Avatar
-              alt="Jefe Guadelupe"
-              backgroundColor=""
-              buttonClassName=""
-              className={null}
-              color=""
-              failureBadge={false}
-              hasNotification={false}
-              hideDefaultTooltip={false}
-              icon={null}
-              initials={null}
-              isDecrypting={false}
-              isOverview={false}
-              onClick={null}
-              size="xlarge"
-              src={null}
-              theme={null}
-              title="Jefe Guadelupe"
-              type=""
-            />,
-            <div
-              className="md-alert__caller-title"
-            >
-              Jefe Guadelupe
-            </div>,
-            <div
-              className="md-alert__caller-subtitle"
-            >
-              +1 408-555-1212
-            </div>,
-          ],
-          "className": "md-alert__caller",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "alt": "Jefe Guadelupe",
-              "backgroundColor": "",
-              "buttonClassName": "",
-              "className": null,
-              "color": "",
-              "failureBadge": false,
-              "hasNotification": false,
-              "hideDefaultTooltip": false,
-              "icon": null,
-              "initials": null,
-              "isDecrypting": false,
-              "isOverview": false,
-              "onClick": null,
-              "size": "xlarge",
-              "src": null,
-              "theme": null,
-              "title": "Jefe Guadelupe",
-              "type": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Jefe Guadelupe",
-              "className": "md-alert__caller-title",
-            },
-            "ref": null,
-            "rendered": "Jefe Guadelupe",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "+1 408-555-1212",
-              "className": "md-alert__caller-subtitle",
-            },
-            "ref": null,
-            "rendered": "+1 408-555-1212",
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": <DeviceListCall
-            className=""
-            defaultSelected={0}
-            devices={
-              Array [
-                Object {
-                  "name": "SJC21-Babelfish",
-                  "type": "device",
-                  "value": "1010101",
-                },
-                Object {
-                  "name": "Use my computer",
-                  "value": "2020202",
-                },
-              ]
-            }
-            header="Device selection"
-            onSelect={null}
-          />,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "",
-            "defaultSelected": 0,
-            "devices": Array [
-              Object {
-                "name": "SJC21-Babelfish",
-                "type": "device",
-                "value": "1010101",
-              },
-              Object {
-                "name": "Use my computer",
-                "value": "2020202",
-              },
-            ],
-            "header": "Device selection",
-            "onSelect": null,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            null,
-            null,
-            null,
-            <ForwardRef(render)
-              ariaLabel="reject call"
-              circle={true}
-              color="red"
-              onClick={null}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_24"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>,
-          ],
-          "className": "md-alert--call--buttons",
-        },
-        "ref": null,
-        "rendered": Array [
-          null,
-          null,
-          null,
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "ariaLabel": "reject call",
-              "children": <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_24"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />,
-              "circle": true,
-              "color": "red",
-              "onClick": null,
-              "size": 44,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "append": false,
-                "ariaLabel": null,
-                "buttonClassName": "",
-                "buttonProps": null,
-                "className": "",
-                "color": "",
-                "description": "",
-                "name": "cancel_24",
-                "onClick": null,
-                "prepend": false,
-                "size": null,
-                "sizeOverride": false,
-                "style": null,
-                "title": "",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "defaultProps": undefined,
-              "displayName": "ContextTransform(Button)",
-              "propTypes": undefined,
-              "render": [Function],
-            },
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="md-alert__title"
-          >
-            Incoming call
-          </div>,
-          <div
-            className="md-alert__caller"
-          >
-            <Avatar
-              alt="Jefe Guadelupe"
-              backgroundColor=""
-              buttonClassName=""
-              className={null}
-              color=""
-              failureBadge={false}
-              hasNotification={false}
-              hideDefaultTooltip={false}
-              icon={null}
-              initials={null}
-              isDecrypting={false}
-              isOverview={false}
-              onClick={null}
-              size="xlarge"
-              src={null}
-              theme={null}
-              title="Jefe Guadelupe"
-              type=""
-            />
-            <div
-              className="md-alert__caller-title"
-            >
-              Jefe Guadelupe
-            </div>
-            <div
-              className="md-alert__caller-subtitle"
-            >
-              +1 408-555-1212
-            </div>
-          </div>,
-          <Unknown>
-            <DeviceListCall
-              className=""
-              defaultSelected={0}
-              devices={
-                Array [
-                  Object {
-                    "name": "SJC21-Babelfish",
-                    "type": "device",
-                    "value": "1010101",
-                  },
-                  Object {
-                    "name": "Use my computer",
-                    "value": "2020202",
-                  },
-                ]
-              }
-              header="Device selection"
-              onSelect={null}
-            />
-          </Unknown>,
-          <div
-            className="md-alert--call--buttons"
-          >
-            <ForwardRef(render)
-              ariaLabel="reject call"
-              circle={true}
-              color="red"
-              onClick={null}
-              size={44}
-            >
-              <Icon
-                append={false}
-                ariaLabel={null}
-                buttonClassName=""
-                buttonProps={null}
-                className=""
-                color=""
-                description=""
-                name="cancel_24"
-                onClick={null}
-                prepend={false}
-                size={null}
-                sizeOverride={false}
-                style={null}
-                title=""
-                type=""
-              />
-            </ForwardRef(render)>
-          </div>,
-        ],
-        "className": "md-alert md-alert--call",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Incoming call",
-            "className": "md-alert__title",
-          },
-          "ref": null,
-          "rendered": "Incoming call",
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <Avatar
-                alt="Jefe Guadelupe"
-                backgroundColor=""
-                buttonClassName=""
-                className={null}
-                color=""
-                failureBadge={false}
-                hasNotification={false}
-                hideDefaultTooltip={false}
-                icon={null}
-                initials={null}
-                isDecrypting={false}
-                isOverview={false}
-                onClick={null}
-                size="xlarge"
-                src={null}
-                theme={null}
-                title="Jefe Guadelupe"
-                type=""
-              />,
-              <div
-                className="md-alert__caller-title"
-              >
-                Jefe Guadelupe
-              </div>,
-              <div
-                className="md-alert__caller-subtitle"
-              >
-                +1 408-555-1212
-              </div>,
-            ],
-            "className": "md-alert__caller",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "alt": "Jefe Guadelupe",
-                "backgroundColor": "",
-                "buttonClassName": "",
-                "className": null,
-                "color": "",
-                "failureBadge": false,
-                "hasNotification": false,
-                "hideDefaultTooltip": false,
-                "icon": null,
-                "initials": null,
-                "isDecrypting": false,
-                "isOverview": false,
-                "onClick": null,
-                "size": "xlarge",
-                "src": null,
-                "theme": null,
-                "title": "Jefe Guadelupe",
-                "type": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Jefe Guadelupe",
-                "className": "md-alert__caller-title",
-              },
-              "ref": null,
-              "rendered": "Jefe Guadelupe",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "+1 408-555-1212",
-                "className": "md-alert__caller-subtitle",
-              },
-              "ref": null,
-              "rendered": "+1 408-555-1212",
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": <DeviceListCall
-              className=""
-              defaultSelected={0}
-              devices={
-                Array [
-                  Object {
-                    "name": "SJC21-Babelfish",
-                    "type": "device",
-                    "value": "1010101",
-                  },
-                  Object {
-                    "name": "Use my computer",
-                    "value": "2020202",
-                  },
-                ]
-              }
-              header="Device selection"
-              onSelect={null}
-            />,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "className": "",
-              "defaultSelected": 0,
-              "devices": Array [
-                Object {
-                  "name": "SJC21-Babelfish",
-                  "type": "device",
-                  "value": "1010101",
-                },
-                Object {
-                  "name": "Use my computer",
-                  "value": "2020202",
-                },
-              ],
-              "header": "Device selection",
-              "onSelect": null,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              null,
-              null,
-              null,
-              <ForwardRef(render)
-                ariaLabel="reject call"
-                circle={true}
-                color="red"
-                onClick={null}
-                size={44}
-              >
-                <Icon
-                  append={false}
-                  ariaLabel={null}
-                  buttonClassName=""
-                  buttonProps={null}
-                  className=""
-                  color=""
-                  description=""
-                  name="cancel_24"
-                  onClick={null}
-                  prepend={false}
-                  size={null}
-                  sizeOverride={false}
-                  style={null}
-                  title=""
-                  type=""
-                />
-              </ForwardRef(render)>,
-            ],
-            "className": "md-alert--call--buttons",
-          },
-          "ref": null,
-          "rendered": Array [
-            null,
-            null,
-            null,
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "ariaLabel": "reject call",
-                "children": <Icon
-                  append={false}
-                  ariaLabel={null}
-                  buttonClassName=""
-                  buttonProps={null}
-                  className=""
-                  color=""
-                  description=""
-                  name="cancel_24"
-                  onClick={null}
-                  prepend={false}
-                  size={null}
-                  sizeOverride={false}
-                  style={null}
-                  title=""
-                  type=""
-                />,
-                "circle": true,
-                "color": "red",
-                "onClick": null,
-                "size": 44,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "append": false,
-                  "ariaLabel": null,
-                  "buttonClassName": "",
-                  "buttonProps": null,
-                  "className": "",
-                  "color": "",
-                  "description": "",
-                  "name": "cancel_24",
-                  "onClick": null,
-                  "prepend": false,
-                  "size": null,
-                  "sizeOverride": false,
-                  "style": null,
-                  "title": "",
-                  "type": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "defaultProps": undefined,
-                "displayName": "ContextTransform(Button)",
-                "propTypes": undefined,
-                "render": [Function],
-              },
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-}
+      header="Device selection"
+      onSelect={null}
+    />
+  </Component>
+  <div
+    className="md-alert--call--buttons"
+  >
+    <ContextTransform(Button)
+      ariaLabel="reject call"
+      circle={true}
+      color="red"
+      onClick={null}
+      size={44}
+    >
+      <Icon
+        append={false}
+        ariaLabel={null}
+        buttonClassName=""
+        buttonProps={null}
+        className=""
+        color=""
+        description=""
+        name="cancel_24"
+        onClick={null}
+        prepend={false}
+        size={null}
+        sizeOverride={false}
+        style={null}
+        title=""
+        type=""
+      />
+    </ContextTransform(Button)>
+  </div>
+</div>
 `;

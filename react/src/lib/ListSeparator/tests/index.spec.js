@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ListSeparator } from '@momentum-ui/react';
 
 describe('tests for <ListSeparator />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ListSeparator />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one ListSeparator', () => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import DatePickerContext from '@momentum-ui/react/DatePickerContext';
 import DatePickerDay from '../index';
 import moment from 'moment-timezone';
@@ -24,7 +25,7 @@ describe.only('tests for <DatePickerDay />', () => {
     const container = shallow(
       <DatePickerDay day={day} month={3} selected={selected} />
     );
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   describe('should apply the right modifier classes', () => {

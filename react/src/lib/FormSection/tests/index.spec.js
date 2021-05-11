@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { FormSection } from '@momentum-ui/react';
 
 describe('tests for <FormSection />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<FormSection id="test" title="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render only FormSection', () => {

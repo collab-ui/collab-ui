@@ -1,137 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <EditableTextfield /> should render an Editable Textfield 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <EditableTextfield
-    alignment="left"
-    allowEmpty={true}
-    buttonClassName=""
-    buttonProps={null}
-    className=""
-    disabled={false}
-    handleDoneEditing={null}
-    inputText=""
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        false,
-        <div
-          className="md-editable-textfield__button"
-          onClick={[Function]}
-          onKeyPress={[Function]}
-          role="button"
-          tabIndex={0}
-        >
-           
-        </div>,
-      ],
-      "className": "md-editable-textfield md-editable-textfield--left",
-    },
-    "ref": null,
-    "rendered": Array [
-      false,
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": " ",
-          "className": "md-editable-textfield__button",
-          "onClick": [Function],
-          "onKeyPress": [Function],
-          "role": "button",
-          "tabIndex": 0,
-        },
-        "ref": null,
-        "rendered": " ",
-        "type": "div",
-      },
-    ],
-    "type": "span",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          false,
-          <div
-            className="md-editable-textfield__button"
-            onClick={[Function]}
-            onKeyPress={[Function]}
-            role="button"
-            tabIndex={0}
-          >
-             
-          </div>,
-        ],
-        "className": "md-editable-textfield md-editable-textfield--left",
-      },
-      "ref": null,
-      "rendered": Array [
-        false,
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": " ",
-            "className": "md-editable-textfield__button",
-            "onClick": [Function],
-            "onKeyPress": [Function],
-            "role": "button",
-            "tabIndex": 0,
-          },
-          "ref": null,
-          "rendered": " ",
-          "type": "div",
-        },
-      ],
-      "type": "span",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+<span
+  className="md-editable-textfield md-editable-textfield--left"
+>
+  <div
+    className="md-editable-textfield__button"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+     
+  </div>
+</span>
 `;

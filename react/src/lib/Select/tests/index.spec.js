@@ -1,4 +1,5 @@
 import { mount, shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import React from 'react';
 import { ListItem, Select } from '@momentum-ui/react';
 
@@ -8,7 +9,7 @@ describe('tests for <Select />', () => {
       <Select />
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render children', () => {

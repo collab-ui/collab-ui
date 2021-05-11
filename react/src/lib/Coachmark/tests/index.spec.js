@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Coachmark } from '@momentum-ui/react';
 
 describe('tests for <Coachmark />', () => {
@@ -16,7 +17,7 @@ describe('tests for <Coachmark />', () => {
       </Coachmark>
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should not render one Coachmark without isOpen', () => {

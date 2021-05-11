@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Icon } from '@momentum-ui/react';
 
 describe('Tests for <Icon />', () => {
@@ -10,7 +11,7 @@ describe('Tests for <Icon />', () => {
       className: 'testClass',
     };
     const container = shallow(<Icon {...props} />);
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   describe('Test the sizes of <Icon />', () => {
@@ -22,7 +23,7 @@ describe('Tests for <Icon />', () => {
         className: 'testClass',
       };
       const container = shallow(<Icon {...props} />);
-      expect(container).toMatchSnapshot();
+      expect(toJson(container)).toMatchSnapshot();
     });
 
     it('should set font-size from size attribute if specified', () => {
@@ -156,7 +157,7 @@ describe('Tests for <Icon />', () => {
         name: 'accessibility_16',
       };
       const container = shallow(<Icon {...props} />);
-      expect(container).toMatchSnapshot();
+      expect(toJson(container)).toMatchSnapshot();
     });
 
     it('should set fill color to default inherit when not specified by prop', () => {
@@ -251,7 +252,7 @@ describe('Tests for <Icon />', () => {
         description,
       };
       const container = shallow(<Icon {...props} />);
-      expect(container).toMatchSnapshot();
+      expect(toJson(container)).toMatchSnapshot();
     });
 
     it('should set aria-label attribute from title prop', () => {

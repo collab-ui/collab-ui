@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import SidebarBody from '@momentum-ui/react/SidebarBody';
 
 describe('<SidebarBody />', () => {
   it('should render a SidebarBody', () => {
     const wrapper = shallow(<SidebarBody />);
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should add customized class name if className prop is set', () => {

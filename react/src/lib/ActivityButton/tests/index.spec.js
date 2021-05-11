@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ActivityButton } from '@momentum-ui/react';
 
 describe('tests for <ActivityButton />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ActivityButton type='chat' ariaLabel='test' />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one ActivityButton button', () => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Avatar, CompositeAvatar } from '@momentum-ui/react';
 
 describe('tests for <CompositeAvatar />', () => {
@@ -11,7 +12,7 @@ describe('tests for <CompositeAvatar />', () => {
       </CompositeAvatar>
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   describe('composite avatars of different sizes  ', () => {

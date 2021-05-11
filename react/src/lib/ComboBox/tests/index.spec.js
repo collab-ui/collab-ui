@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ComboBox, ListItem, ListItemHeader } from '@momentum-ui/react';
 
 describe('tests for <ComboBox />', () => {
@@ -8,7 +9,7 @@ describe('tests for <ComboBox />', () => {
     const container = shallow(
       <ComboBox options={['a', 'ab', 'abc']} />
     );
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should apply className to ComboBox', () => {

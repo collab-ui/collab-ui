@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Button,
   EventOverlay,
@@ -24,7 +25,7 @@ describe('tests for <EventOverlay />', () => {
       </EventOverlay>
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   describe('should set classes for', () => {
@@ -227,7 +228,7 @@ describe('tests for <EventOverlay />', () => {
           <Button ariaLabel='Hello'>Hello</Button>
         </Popover>
       </div>
-    );
+    , { attachTo: document.body });
 
     container.find('Button').simulate('click');
     jest.runAllTimers();

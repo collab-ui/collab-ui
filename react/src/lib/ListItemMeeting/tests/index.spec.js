@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { ListItemMeeting } from '@momentum-ui/react';
 
 describe('tests for <ListItemMeeting />', () => {
@@ -18,7 +19,7 @@ describe('tests for <ListItemMeeting />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ListItemMeeting {...props} />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   describe('tests for anchor section', () => {

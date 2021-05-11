@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { List, ListItemHeader } from '@momentum-ui/react';
 
 describe('tests for <ListItemHeader />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<ListItemHeader header='header'/>);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render children', () => {

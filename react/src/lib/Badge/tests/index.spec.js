@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Badge } from '@momentum-ui/react';
 
 describe('tests for <Badge />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Badge />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Span', () => {

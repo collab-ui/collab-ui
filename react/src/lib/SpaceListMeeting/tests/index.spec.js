@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { SpaceListMeeting } from '@momentum-ui/react';
 
 describe('tests for <SpaceListMeeting />', () => {
@@ -12,7 +13,7 @@ describe('tests for <SpaceListMeeting />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<SpaceListMeeting header='header'/>);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render childrenLeft', () => {

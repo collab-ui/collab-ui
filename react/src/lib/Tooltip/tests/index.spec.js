@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Button,
   Tooltip,
@@ -18,7 +19,7 @@ describe('tests for <Tooltip />', () => {
       </Tooltip>
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render on click', () => {

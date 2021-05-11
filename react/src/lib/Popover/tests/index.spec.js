@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Button, Popover } from '@momentum-ui/react';
 
 describe('tests for <Popover />', () => {
@@ -16,7 +17,7 @@ describe('tests for <Popover />', () => {
       </Popover>
     );
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Popover on click', () => {

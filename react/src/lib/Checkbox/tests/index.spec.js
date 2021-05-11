@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import {
   Checkbox,
   Label,
@@ -10,7 +11,7 @@ describe('tests for <Checkbox />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Checkbox htmlId="test123" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Checkbox', () => {

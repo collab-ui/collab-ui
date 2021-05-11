@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import AlertMeeting from '../index';
 import { Avatar, CompositeAvatar } from '@momentum-ui/react';
 
@@ -15,7 +16,7 @@ describe('tests for <AlertMeeting />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<AlertMeeting show attendees={attendeeListOne} onSnooze={() => {}} />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one AlertMeeting', () => {

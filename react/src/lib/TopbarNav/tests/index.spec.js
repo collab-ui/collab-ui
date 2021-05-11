@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import TopbarNav from '../index';
 import { prefix } from '../../utils/index';
 
@@ -7,7 +8,7 @@ describe('tests for <TopbarNav />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<TopbarNav id="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one TopbarNav', () => {

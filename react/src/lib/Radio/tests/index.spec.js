@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import Radio from '../index';
 import Label from '@momentum-ui/react/Label';
 import InputHelper from '@momentum-ui/react/InputHelper';
@@ -8,7 +9,7 @@ describe('tests for <Radio />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Radio htmlId="test123" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Radio', () => {

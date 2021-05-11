@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Lightbox } from '@momentum-ui/react';
 
 describe('tests for <Lightbox />', () => {
@@ -17,7 +18,7 @@ describe('tests for <Lightbox />', () => {
         }]}
       />
     );
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('when downloading is true the download button should turn to spinner', () => {

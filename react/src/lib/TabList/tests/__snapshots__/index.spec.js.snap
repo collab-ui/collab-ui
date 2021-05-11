@@ -1,170 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <TabList /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <TabList
-    id="test"
-    role="tablist"
-  >
-    <Tab
-      active={false}
-      className=""
-      disabled={false}
-      focus={false}
-      heading="one"
-      isType="pills"
-      myKey={0}
-      onKeyDown={null}
-      onPress={null}
-      preventFocus={false}
-      role="tab"
-    />
-  </TabList>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <Tab
-          active={false}
-          className=""
-          disabled={false}
-          focus={true}
-          heading="one"
-          isType="pills"
-          myKey={0}
-          onKeyDown={[Function]}
-          onPress={[Function]}
-          preventFocus={false}
-          refName="navLink"
-          role="tab"
-        />,
-      ],
-      "className": "md-tab__list",
-      "role": "tablist",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": ".0",
-        "nodeType": "class",
-        "props": Object {
-          "active": false,
-          "className": "",
-          "disabled": false,
-          "focus": true,
-          "heading": "one",
-          "isType": "pills",
-          "myKey": 0,
-          "onKeyDown": [Function],
-          "onPress": [Function],
-          "preventFocus": false,
-          "refName": "navLink",
-          "role": "tab",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "ul",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Tab
-            active={false}
-            className=""
-            disabled={false}
-            focus={true}
-            heading="one"
-            isType="pills"
-            myKey={0}
-            onKeyDown={[Function]}
-            onPress={[Function]}
-            preventFocus={false}
-            refName="navLink"
-            role="tab"
-          />,
-        ],
-        "className": "md-tab__list",
-        "role": "tablist",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": ".0",
-          "nodeType": "class",
-          "props": Object {
-            "active": false,
-            "className": "",
-            "disabled": false,
-            "focus": true,
-            "heading": "one",
-            "isType": "pills",
-            "myKey": 0,
-            "onKeyDown": [Function],
-            "onPress": [Function],
-            "preventFocus": false,
-            "refName": "navLink",
-            "role": "tab",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "ul",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    "context": Object {
-      "focus": 0,
-      "onActivate": [Function],
-      "onFocus": [Function],
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+<ul
+  className="md-tab__list"
+  role="tablist"
+>
+  <Tab
+    active={false}
+    className=""
+    disabled={false}
+    focus={true}
+    heading="one"
+    isType="pills"
+    key=".0"
+    myKey={0}
+    onKeyDown={[Function]}
+    onPress={[Function]}
+    preventFocus={false}
+    refName="navLink"
+    role="tab"
+  />
+</ul>
 `;

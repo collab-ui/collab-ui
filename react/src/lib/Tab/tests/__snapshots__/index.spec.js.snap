@@ -1,134 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`tests for <Tab /> should match SnapShot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Tab
-    active={false}
-    className=""
-    disabled={false}
-    focus={false}
-    heading="test"
-    isType="pills"
-    myKey={0}
+<li
+  className="md-tab__item md-type--pills"
+  tabIndex="-1"
+>
+  <a
+    aria-current={false}
+    href="#"
+    onClick={[Function]}
     onKeyDown={null}
-    onPress={null}
-    preventFocus={false}
     role="tab"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": <a
-        aria-current={false}
-        href="#"
-        onClick={[Function]}
-        onKeyDown={null}
-        role="tab"
-        tabIndex={-1}
-      >
-        test
-      </a>,
-      "className": "md-tab__item md-type--pills",
-      "tabIndex": "-1",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "aria-current": false,
-        "children": "test",
-        "href": "#",
-        "onClick": [Function],
-        "onKeyDown": null,
-        "role": "tab",
-        "tabIndex": -1,
-      },
-      "ref": [Function],
-      "rendered": "test",
-      "type": "a",
-    },
-    "type": "li",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <a
-          aria-current={false}
-          href="#"
-          onClick={[Function]}
-          onKeyDown={null}
-          role="tab"
-          tabIndex={-1}
-        >
-          test
-        </a>,
-        "className": "md-tab__item md-type--pills",
-        "tabIndex": "-1",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "aria-current": false,
-          "children": "test",
-          "href": "#",
-          "onClick": [Function],
-          "onKeyDown": null,
-          "role": "tab",
-          "tabIndex": -1,
-        },
-        "ref": [Function],
-        "rendered": "test",
-        "type": "a",
-      },
-      "type": "li",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    Symbol(enzyme.__providerValues__): undefined,
-  },
-  Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
-}
+    tabIndex={-1}
+  >
+    test
+  </a>
+</li>
 `;

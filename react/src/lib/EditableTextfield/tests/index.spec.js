@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { EditableTextfield } from '@momentum-ui/react';
 
 describe('tests for <EditableTextfield />', () => {
   it('should render an Editable Textfield', () => {
     const wrapper = shallow(<EditableTextfield />);
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should render one Editable Textfield', () => {

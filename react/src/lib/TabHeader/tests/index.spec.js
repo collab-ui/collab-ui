@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { TabHeader } from '@momentum-ui/react';
 
 describe('tests for <TabHeader />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<TabHeader heading="test" />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one TabHeader', () => {

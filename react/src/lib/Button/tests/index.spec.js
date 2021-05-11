@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Button, Loading } from '@momentum-ui/react';
 import ButtonGroupContext from '../../ButtonGroupContext';
 import SelectableContext from '../../SelectableContext';
@@ -8,7 +9,7 @@ describe('tests for <Button />', () => {
   it('should match SnapShot', () => {
     const container = shallow(<Button children='test' ariaLabel='test' />);
 
-    expect(container).toMatchSnapshot();
+    expect(toJson(container)).toMatchSnapshot();
   });
 
   it('should render one Button', () => {

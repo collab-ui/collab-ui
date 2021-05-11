@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import toJson from "enzyme-to-json";
 import { Modal } from '@momentum-ui/react';
 //Add test for Background once Portals are supported in Enzyme
 
@@ -9,7 +10,7 @@ describe('tests for <Modal />', () => {
       <Modal onHide={() => { }} applicationId="test" show htmlId="testModal" />
     );
 
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should render a Modal', () => {
