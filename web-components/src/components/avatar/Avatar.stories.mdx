@@ -1,0 +1,63 @@
+import { Meta, Story, Props } from "@storybook/addon-docs/blocks";
+import { Avatar } from "./Avatar.ts";
+
+# Avatar
+
+Floating Modal provides a movable and scalable modal for more dynamic UI.
+
+### Attributes
+
+- `alt` : String - User-provided Alt text to accompany the avatar image
+- `src` : String - Avatar image source
+- `label` : String - User-provided Aria-label text
+- `title` : String - User-provided title text
+- `color` : String - User-set Avatar color from options: [`purple`,
+  `mint`,
+  `slate`,
+  `gold`,
+  `lime`,
+  `darkmint`,
+  `green`,
+  `yellow`,
+  `red`,
+  `orange`,
+  `violet`,
+  `cyan`,
+  `cobalt`,
+  `pink`]
+- `decrypting` : Boolean - Depricated styling flag
+- `icon-name` : String - User-set Momentum Icon (see [Momentum Icons](https://momentum.design/icons))
+- `type` : String - User-set Avatar type from options:[
+  `active`,
+  `bot`,
+  `call`,
+  `dnd`,
+  `group`,
+  `inactive`,
+  `meeting`,
+  `ooo`,
+  `presenting`,
+  `self`,
+  `typing`,
+  or no setting
+  ]
+- `size` : Number - User-set Avatar size from options: [`18`, `24`, `28`, `32`, `36`, `40`, `44`, `52`, `56`, `72`, `80`, `84`];
+- `has-notification` : Boolean - Styling flag for notification flag over avatar
+
+### Styling
+
+The wrapping container of the modal can be reached via CSS by using the `::part()` selector. For example, in your application's stylesheet you can say:
+
+```CSS
+md-avatar::part(avatar) {
+    border: 4px solid #dedede;
+}
+```
+
+### Slots
+
+#### Unnamed Slots
+
+#### Named Slots
+
+<Props of={"md-floating-modal"} />

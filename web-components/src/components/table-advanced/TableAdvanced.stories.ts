@@ -6,13 +6,13 @@
  *
  */
 
-import { withA11y } from "@storybook/addon-a11y";
-import { boolean, text, withKnobs } from "@storybook/addon-knobs";
-import mdx from "./TableAdvanced.mdx";
-import { html } from "lit-element";
-import { TableAdvanced as TableAdvancedType } from "./TableAdvanced"; // Keep type import as a relative path
 import "@/components/table-advanced/TableAdvanced";
 import "@/components/theme/Theme";
+import { withA11y } from "@storybook/addon-a11y";
+import { boolean, text, withKnobs } from "@storybook/addon-knobs";
+import { html } from "lit-element";
+import { TableAdvanced as TableAdvancedType } from "./TableAdvanced"; // Keep type import as a relative path
+import mdx from "./TableAdvanced.stories.mdx";
 
 export default {
   title: "Components/Table Advanced",

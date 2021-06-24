@@ -13,7 +13,7 @@ import "@/components/theme/Theme";
 import { withA11y } from "@storybook/addon-a11y";
 import { boolean, text, withKnobs } from "@storybook/addon-knobs";
 import { html } from "lit-element";
-import mdx from "./Floating.mdx";
+import mdx from "./Floating.stories.mdx";
 
 export default {
   title: "Components/Floating Modal",

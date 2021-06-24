@@ -10,12 +10,11 @@ import "@/components/button/Button";
 import "@/components/icon/Icon";
 import "@/components/theme/Theme";
 import { withA11y } from "@storybook/addon-a11y";
-import { boolean, select, withKnobs, text } from "@storybook/addon-knobs";
-import { html } from "lit-element";
 import { action } from "@storybook/addon-actions";
-import { buttonColor, buttonSize, buttonTag, buttonType, buttonVariant, buttonRoles } from "./Button"; // Keep type import as a relative path
-import mdx from "./Button.mdx";
-import { ifDefined } from "lit-html/directives/if-defined";
+import { boolean, select, text, withKnobs } from "@storybook/addon-knobs";
+import { html } from "lit-element";
+import { buttonColor, buttonRoles, buttonSize, buttonTag, buttonType, buttonVariant } from "./Button"; // Keep type import as a relative path
+import mdx from "./Button.stories.mdx";
 
 export default {
   title: "Components/Button",

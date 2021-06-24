@@ -6,15 +6,15 @@
  *
  */
 
-import { withA11y } from "@storybook/addon-a11y";
-import { boolean, withKnobs, color, text, select } from "@storybook/addon-knobs";
-import mdx from "./Draggable.mdx";
 import "@/components/draggable/Draggable";
 import "@/components/draggable/DraggableItem";
 import "@/components/icon/Icon";
+import { withA11y } from "@storybook/addon-a11y";
+import { boolean, color, select, text, withKnobs } from "@storybook/addon-knobs";
+import { SelectTypeKnobValue } from "@storybook/addon-knobs/dist/components/types";
 import { html } from "lit-element";
 import { GroupOptions } from "sortablejs";
-import { SelectTypeKnobValue } from "@storybook/addon-knobs/dist/components/types";
+import mdx from "./Draggable.stories.mdx";
 
 export default {
   title: "Components/Draggable",

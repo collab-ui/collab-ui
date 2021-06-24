@@ -459,7 +459,7 @@ export class Sandbox extends LitElement {
 
           <div class="container" aria-label="internal/colors">
             <h2>Colors</h2>
-              ${colorTableTemplate}
+            ${colorTableTemplate}
           </div>
         </elix-list-explorer>
       </md-theme>

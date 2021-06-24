@@ -6,13 +6,14 @@
  *
  */
 
-import { AvatarType, AvatarSize }  from "@/components/avatar/Avatar";
 import "@/components/avatar/Avatar";
+import { AvatarSize, AvatarType } from "@/components/avatar/Avatar";
 import "@/components/avatar/CompositeAvatar";
 import "@/components/theme/Theme";
 import { withA11y } from "@storybook/addon-a11y";
 import { boolean, select, text, withKnobs } from "@storybook/addon-knobs";
 import { html } from "lit-element";
+import mdx from "./Avatar.stories.mdx";
 
 export default {
   title: "Components/Avatar",
@@ -21,6 +22,12 @@ export default {
   parameters: {
     a11y: {
       element: "md-avatar"
+    },
+    docs: {
+      page: mdx,
+      description: {
+        component: "some component description"
+      }
     }
   }
 };
@@ -51,7 +58,10 @@ export const Avatar = () => {
   const size = select("Size", AvatarSize, 44);
   const customUrl = boolean("Custom Src", false);
   const customImage = boolean("Custom Image", false);
-  const url = text("src", "https://4b4dc97add6b1dcc891a-54bf3b4e4579920861d23cc001530c2a.ssl.cf1.rackcdn.com/V1~b33cb17c-42e3-41ac-a045-497e4002646c~b18d4572b17a4e98a16708797343ee7a~1600");
+  const url = text(
+    "src",
+    "https://4b4dc97add6b1dcc891a-54bf3b4e4579920861d23cc001530c2a.ssl.cf1.rackcdn.com/V1~b33cb17c-42e3-41ac-a045-497e4002646c~b18d4572b17a4e98a16708797343ee7a~1600"
+  );
   const hasNotification = boolean("Has Notification", false);
   const composite = boolean("Composite", false);
   const compositeAvatarSize = [0, 18, 24, 28, 36, 40, 44, 52, 56, 72, 80, 84] as const;
@@ -69,12 +79,21 @@ export const Avatar = () => {
   } else {
     return html`
       <md-theme class="theme-toggle" id="avatar" ?darkTheme=${darkTheme}>
-        <md-avatar .title=${title} alt="Avatar" label="Avatar" .type=${type} .src="${customUrl ? `${url}` : ""}" .color=${preDefinedColor} .size=${size} ?has-notification=${hasNotification}>
-          ${customImage ? html`<img
-          width="100"
-          height="100"
-          src=${url}
-        />` : ``}
+        <md-avatar
+          .title=${title}
+          alt="Avatar"
+          label="Avatar"
+          .type=${type}
+          .src="${customUrl ? `${url}` : ""}"
+          .color=${preDefinedColor}
+          .size=${size}
+          ?has-notification=${hasNotification}
+        >
+          ${customImage
+            ? html`
+                <img width="100" height="100" src=${url} />
+              `
+            : ``}
         </md-avatar>
       </md-theme>
     `;

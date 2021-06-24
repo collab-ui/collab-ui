@@ -1,5 +1,5 @@
-import { commonDev } from '../webpack.config';
 import * as webpack from "webpack";
+import { commonDev } from '../webpack.config';
 
 /**
  * merge two arrays into one and remove the duplicates
