@@ -124,6 +124,9 @@ jobs:
           name: Build Storybook
           command: yarn storybook:wc-dist
       - run:
+          name: Visual regression test web components library with Percy.io snapshots
+          command: yarn ci:test:wc:percy
+      - run:
           name: Clear Git changed files
           command: git checkout -- .
 

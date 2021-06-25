@@ -29,6 +29,7 @@
     "ci:test:icons-rebrand": "cd ./icons-rebrand && yarn test",
     "ci:test:react": "cd ./react && yarn test:CI",
     "ci:test:wc": "cd ./web-components && yarn test:ci",
+    "ci:test:wc:percy": "cd ./web-components && yarn snapshot",
     "ci:test:tokens": "cd ./tokens && yarn test",
     "ci:test:react:percy": "cd ./react && yarn test:percy",
     "ci:test:percy": "run-s ci:test:icons test:icons-rebrand ci:test:core:percy ci:test:react",
