@@ -66,10 +66,13 @@ class EditableTextfield extends React.Component {
   }
 
   handleEsc = e => {
+    var value = e.target.value;
+    var handleDoneEditing = this.props.handleDoneEditing;
     this.setState(
       {
         isEditing: false
-      }
+      },
+      () => handleDoneEditing && handleDoneEditing(e, {value})
     );
     e.nativeEvent.stopImmediatePropagation();
   }

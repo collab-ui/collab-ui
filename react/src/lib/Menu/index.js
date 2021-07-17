@@ -251,7 +251,8 @@ class Menu extends React.Component {
         flag = true;
         break;
 
-      case 37: //left
+      case 27:
+      case 37: //escape or left
         currentElements.length - 1 &&
         this.setState(state => ({
           currentElements: state.currentElements.slice(0, currentElements.length - 1),
